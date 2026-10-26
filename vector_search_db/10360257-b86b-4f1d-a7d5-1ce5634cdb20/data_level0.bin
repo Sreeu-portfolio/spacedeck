@@ -1,0 +1,2753 @@
+--- Paragraph 1 ---
+ arXiv:1007.2659v1  [astro-ph.SR]  15 Jul 2010
+The Astronomy & Astrophysics Review manuscript No.
+(will be inserted by the editor)
+Evolutionary and pulsational properties of white dwarf stars
+Leandro G. Althaus · Alejandro H. C´orsico · Jordi
+Isern · Enrique Garc´ ıa–Berro
+Received: October 22, 2018/ Accepted: October 22, 2018
+Abstract White dwarf stars are the ﬁnal evolutionary stage of the vast majority of stars,
+including our Sun. Since the coolest white dwarfs are very ol d objects, the present popula-
+tion of white dwarfs contains a wealth of information on the e volution of stars from birth
+to death, and on the star formation rate throughout the histo ry of our Galaxy. Thus, the
+study of white dwarfs has potential applications to different ﬁelds of astrophysics. In partic-
+ular, white dwarfs can be used as independent reliable cosmi c clocks, and can also provide
+valuable information about the fundamental parameters of a wide variety of stellar popu-
+lations, like our Galaxy and open and globular clusters. In a ddition, the high densities and
+temperatures characterizing white dwarfs allow to use these stars as cosmic laboratories for
+studying physical processes under extreme conditions that cannot be achieved in terrestrial
+laboratories. Last but not least, since many white dwarf sta rs undergo pulsational instabili-
+ties, the study of their properties constitutes a powerful t ool for applications beyond stellar
+astrophysics. In particular, white dwarfs can be used to con strain fundamental properties
+of elementary particles such as axions and neutrinos, and to study problems related to the
+variation of fundamental constants.
+These potential applications of white dwarfs have led to a re newed interest in the cal-
+culation of very detailed evolutionary and pulsational mod els for these stars. In this work,
+we review the essentials of the physics of white dwarf stars. We enumerate the reasons that
+make these stars excellent chronometers and we describe whywhite dwarfs provide tools for
+Leandro G. Althaus and Alejandro H. C´ orsico
+Facultad de Ciencias Astron´ omicas y Geof´ ısicas, Universidad Nacional de La Plata, Paseo del Bosque s/n,
+(1900) La Plata, Argentina
+Instituto de Astrof´ ısica La Plata, IALP, CONICET-UNLP
+E-mail: althaus,acorsico@fcaglp.unlp.edu.ar
+J. Isern
+Institut de Ci` encies de l’Espai, CSIC, Campus de la UAB, Facultat de Ci` encies, Torre C-5, 08193 Bellaterra,
+Spain
+Institut d’Estudis Espacials de Catalunya, c/Gran Capit` a2–4, Edif. Nexus 104, 08034 Barcelona, Spain
+E-mail: isern@ieec.fcr.es
+E. Garc´ ıa–Berro
+Departament de F´ ısica Aplicada, Universitat Polit` ecnica de Catalunya, c/Esteve Terrades 5, 08860 Castellde-
+fels, Spain
+Institut d’Estudis Espacials de Catalunya, c/Gran Capit` a2–4, Edif. Nexus 104, 08034 Barcelona, Spain
+E-mail: garcia@fa.upc.edu
+2
+a wide variety of applications. Special emphasis is placed on the physical processes that lead
+to the formation of white dwarfs as well as on the different en ergy sources and processes
+responsible for chemical abundance changes that occur alon g their evolution. Moreover, in
+the course of their lives, white dwarfs cross different pulsational instability strips. The exis-
+tence of these instability strips provides astronomers with an unique opportunity to peer into
+their internal structure that would otherwise remain hidde n from observers. We will show
+that this allows to measure with unprecedented precision the stellar masses and to infer their
+envelope thicknesses, to probe the core chemical stratiﬁca tion, and to detect rotation rates
+and magnetic ﬁelds. Consequently, in this work, we also revi ew the pulsational properties
+of white dwarfs and the most recent applications of white dwarf asteroseismology.
+Keywords stars: evolution · stars: white dwarfs · stars: interiors · stars: oscillations
+1 Introduction
+White dwarf stars are the ﬁnal evolutionary stage of the vast majority of stars. Indeed, more
+than 97% of all stars, including our Sun, are expected to ultimately end their lives passively,
+getting rid of their outer layers and forming white dwarfs. For this reason, the present popu-
+lation of white dwarfs contains valuable information about the evolution of individual stars
+from birth to death and about the star formation rate through out the history of our Galaxy.
+These stellar remnants are the cores of low- and intermediate-mass hydrogen burning stars,
+and have no appreciable sources of nuclear energy. Hence, as time passes by, white dwarfs
+will slowly cool and radiate the stored thermal energy, becoming dimmer and dimmer.
+The interest in the study of white dwarf stars in recent years has been triggered in part
+by their importance relative to some open questions in otherﬁelds of astrophysics — see the
+recent reviews of Winget & Kepler (2008), Fontaine & Brassar d (2008), and also the valu-
+able early reviews on the physics and evolutionary properties of white dwarfs of Koester &
+Chanmugam (1990) and D’Antona & Mazzitelli (1990). The huge amount of high-quality
+observational data of these stars, obtained from both space -borne observatories and from
+ground-based telescopes, has made possible to use the white dwarf cooling sequence as in-
+dependent age and distance indicators for a wide variety of s tellar populations. As a matter
+of fact, an accurate knowledge of the rate at which white dwar fs cool constitutes a funda-
+mental issue and provides an independent cosmic clock to con strain the age and previous
+history of the Galactic populations including the disk (Win get et al. 1987; Garc´ ıa–Berro et
+al. 1988a,b; Hernanz et al. 1994; Torres et al. 2002) and globular and open clusters (Richer
+et al. 1997; V on Hippel & Gilmore 2000; Hansen et al. 2002; V onHippel et al. 2006; Hansen
+et al. 2007; Winget et al. 2009; Garc´ ıa–Berro et al. 2010). In addition, because white dwarf
+progenitors lose their outer layers — which are carbon-, nit rogen- and oxygen-rich — at the
+top of the asymptotic giant branch (AGB), they are signiﬁcan t contributors to the chemical
+evolution of the Galaxy. More than 10,000 spectroscopicall y identiﬁed white dwarfs with
+determined effective temperatures ( Teff) and gravities (log g) have been currently detected
+(Kleinman et al. 2004; Kepler et al. 2007), giving us the oppo rtunity to explore the white
+dwarf mass distribution, which ultimately provides insights into mass-loss processes during
+stellar evolution and the mass budget of the Galaxy.
+White dwarfs usually play a key role in some types of interacting binaries, such as cata-
+clysmic variables, where mass transfer from a companion star onto the white dwarf gives rise
+to very strong energetic events. In addition, white dwarfs in binary systems are the candidate
+progenitors of Type Ia supernovae, which are thought to be th e result of the explosion of a
+3
+white dwarf exceeding the Chandrasekhar limit due to accret ion from a mass-losing com-
+panion star. Understanding the evolutionary and structural properties of white dwarfs helps
+improving our konwledge of supernova events, with the impor tant underlying implications
+for cosmology. Also, the presence of white dwarfs in binary systems with millisecond pulsar
+companions allows to constrain the age of millisecond pulsars and thereby the timescale for
+magnetic ﬁeld decay (van Kerkwijk et al. 2005).
+Surveys carried out by the MACHO team (Alcock et al. 1995; Alc ock et al. 1997; Al-
+cock et al. 2000) suggest that a substantial fraction of the h alo dark matter could be in the
+form of very cool white dwarfs. Since then, the EROS (Lasserre et al. 2000; Goldman et al.
+2002; Tisserand et al. 2006), OGLE (Udalski et al. 1994), MOA (Muraki et al. 1999) and
+SuperMACHO (Becker et al. 2005) teams have monitored millio ns of stars during several
+years in both the Large Magellanic Cloud (LMC) and the Small M agellanic Cloud (SMC)
+to search for microlensing events. Most of them have challenged the results of the MACHO
+experiment — see, for instance, Yoo et al. (2004) and referen ces therein. In addition, there
+have been claims that white dwarfs could be the stellar objects reported in the Hubble Deep
+Field (Ibata et al. 1999; M´ endez & Minniti 2000). However, these claims remain inconclu-
+sive for lack of spectroscopic identiﬁcations. The Hubble D eep Field South has provided
+another opportunity to test the contribution of white dwarf s to the Galactic dark matter.
+In particular, three white dwarf candidates among several f aint blue objects which exhibit
+signiﬁcant proper motion have been recently found (Kilic et al. 2005). They are assumed
+to belong to the thick-disk or halo populations. If these are spectroscopically conﬁrmed it
+would imply that white dwarfs account for ∼< 10% of the Galactic dark matter, which would
+ﬁt comfortably within the results of the EROS team. All in all, the study of the white dwarf
+population has important ramiﬁcations for our understanding of the structure and evolution
+of the Milky Way (D´ ıaz–Pinto et al. 1994; Isern et al. 1998; Torres et al. 1998; Garc´ ıa–Berro
+et al. 1999; Torres et al. 2001; Torres et al. 2002; Garc´ ıa–Berro et al. 2004; Camacho et al.
+2007; Torres et al. 2008).
+Besides the implications of the white dwarf cooling theory f or the study of stellar pop-
+ulations, white dwarfs constitute also extremely interesting objects in their own right. Typi-
+cally, the mass of white dwarfs is about half that of the Sun, and their size resembles that of
+a planet. Their compact nature translates into large average densities, large surface gravities
+and low luminosities. At the extremely high densities of whi te dwarfs, electrons become
+degenerate and quantum mechanics — the Pauli principle — det ermines their equation of
+state, their structure, and the existence of a limiting massabove which no stable white dwarf
+can exist (Chandrasekhar 1939). These properties turn whit e dwarfs into extremely attrac-
+tive objects as cosmic laboratories to study numerous physi cal processes under extreme
+conditions that cannot be achieved in terrestrial laboratories. Just to indicate a few ones, we
+mention the equation of state, crystallization and physical separation processes at very high
+density (Garc´ ıa-Berro et al. 1988a; Garc´ ıa-Berro et al. 1988b; Isern et al. 1991; Segretain
+et al. 1994; Isern et al. 1997; Winget et al 2009; Garc´ ıa-Berro et al. 2010), the physics of
+neutrino emission (Winget et al. 2004), the existence of axi ons (Isern et al. 2008) and the
+variation of fundamental constants (Garc´ ıa–Berro et al. 1995). The study of the structure and
+evolution of white dwarfs thus allows us to test our current understanding of the behavior of
+matter at extreme densities and pressures.
+In the course of their evolution, white dwarfs cross severalpulsational instability phases.
+The pulsational pattern of variable white dwarfs has becomea powerful tool for probing their
+inner regions that would otherwise remain unaccessible to d irect observations (Fontaine &
+Brassard 2008; Winget & Kepler 2008). The recent developmen t of white dwarf astero-
+seismological techniques, combined with the improvements in the evolutionary models for
+4
+these stars have allowed to face some key problems in astrophysics, such as the core chem-
+ical composition of low-mass stars and the implications for thermonuclear reaction rates,
+and the theory of crystallization at high densities. In addi tion, pulsating white dwarfs are
+powerful tools which have applications beyond stellar astrophysics. In particular, pulsating
+white dwarfs can be used to constrain the properties of elementary particles, such as axions
+and neutrinos (Isern et al. 1992; C´ orsico et al. 2001b; Isern et al. 2010).
+All these potential applications of white dwarfs have led to a renewed interest in the
+calculation of full evolutionary models for these stars. Inthis work we discuss the essentials
+of the physics of white dwarf evolution in order to understan d the reasons that make these
+stars excellent chronometers and potential tools with a wide variety of applications. In Sect.
+2, we will describe a simple model for white dwarf evolution, making use of the fact that
+these stars are strongly degenerate stellar conﬁgurations , and thus taking advantage of the
+fact that the mechanical and thermal structures can be treated separately. This simple model
+will allow us to understand the evolution of white dwarf as a simple cooling process. In Sect.
+4, we will describe the predictions obtained from the full theory of stellar evolution, based on
+our present understanding of the physical processes occurring in the interior of these stars. In
+Sect. 5, special emphasis will be placed on the formation andevolution of H-deﬁcient white
+dwarfs. We will discuss the pulsational properties and asteroseismological tools in Sects. 6
+to 8. Furthermore, we will discuss as well the most recent asteroseismological results for the
+different classes of pulsating white dwarfs. This is done inSect. 9. The observational aspects
+of white dwarfs are brieﬂy touched upon. The interested read er is referred to the review
+articles of Koester (2002), Hansen & Liebert (2003) — for gen eral overviews of the ﬁeld
+— Barstow (2006) — for hot white dwarfs — and Winget & Kepler (2 008) and Fontaine
+& Brassard (2008) — for recent accounts of the observational aspects and applications of
+pulsating white dwarfs. However, we will discuss in some detail the statistical properties of
+the white dwarf population, and in particular, the white dwarf luminosity function.
+2 The essentials of white dwarfs
+2.1 A historical perspective
+White dwarf stars have captured the attention of astronomer s since their early discovery in
+1914, when H. Russell (Russell 1914) noticed that the star no w known as 40 Eridani B,
+was located well below the main sequence on the Hertzsprung- Russell diagram, see Fig.
+1. He rapidly realized that this star was characterized by a v ery small radius (hence the
+“dwarf” in the name), comparable to the size of the Earth. But a major puzzle was posed
+by the discovery that the companion star to Sirius, Sirus B, w as also a white dwarf. The
+determination of the spectral type (Adams 1915) and luminos ity of Sirius B provided the
+ﬁrst estimate of its radius. Because the mass of this star was known to be about 1 M⊙, it
+was possible to infer the mean density of a white dwarf for the ﬁrst time: 5 × 104 gr/cm3.
+The measurement of the gravitational redshift by Adams (192 5) resulting from the strong
+gravity of Sirius B provided an independent test of the high density of this white dwarf, and
+at the same time a conﬁrmation of general relativity. It is nonetheless interesting to note that
+nowadays the accepted value of the effective temperature of the star is much larger than the
+originally estimated, thus implying a much larger average density of about 106 gr/cm3.
+It was clear for astronomers that these stars were indeed a ne w class of star quite dif-
+ferent from ordinary stars. But the extraordinary value of t he density derived for Sirius B
+was difﬁcult to explain at that time, and the answer had to wait until the advent of quantum
+5
+10 -3 
+10 -4
+--- Paragraph 2 ---
+ MAIN SEQUENCE (V) 
+Sun
+--- Paragraph 3 ---
+ 4 
+0 
+- 4 
+- 6 
+- 8 
+- 10 
+- 2 
+2 
+6 
+8 
+10 
+12 Absolute Magnitude, MV 
+Spectral Class 
+B0 A0 F0 G0 K0 M0 
+1 
+10 -1 
+10 -2 
+10 
+10 2 
+10 3 
+10 4 
+10 5 
+Luminosity compared to Sun 
+4,000 6,000 7,000 10,000 30,000 
+Hertzsprung-Russell Diagram 
+O5 
+-0.5 0.0 +0.3 +0.6 +0.8 +0.9 +2.0 
+Colour Index (B - V) 14 
+Betelgeuse 
+Colour Ind lour Ind 
+Sirius 
+Proxima Cen 
+Antares 
+Procyon B 
+Sirius B
+--- Paragraph 4 ---
+ Rigel 
+Effective Temperature, K 
+RW Cephei 
+Aldebaran 
+Mira
+--- Paragraph 5 ---
+ RR Lyrae 
+δ Cephei 
+Regulus 
+Deneb 
+Canopus 
+Barnard's Star 
+Achernar 
+WHITE DWARFS (wd) 
+GIANTS (II,III) 
+SUPERGIANTS (I)  
+SUBGIANTS (IV) 
+Altair 
+INSTABILITY STRIP 
+Fig. 1 Hertzsprung-Russell diagram. The location of white dwarfs is clearly seen below the main sequence.
+From R. Hollow, CSIRO.
+mechanics. As a matter of fact, the existence of white dwarfs provided one of the ﬁrst tests
+of the quantum theory of matter and a demonstration of the Pau li exclusion principle for
+electrons. The realization that completely degenerate ele ctrons should be the source of in-
+ternal pressure in the interiors of white dwarf (Fowler 1926) led to the conclusion that white
+dwarfs should be stable objects, and established the study o f the zero-temperature conﬁg-
+urations. Subsequent investigations by Anderson (1929), Stoner (1930) and Chandrasekhar
+(1931), demonstrated the fundamental conceptual coupling of relativity and quantum statis-
+tical mechanics, which yielded another key breakthrough, t he existence of a limiting mass,
+where gravitational forces overwhelm degenerate electron pressure, and above which no
+stable white dwarf can exist. This limiting mass, also known as the Chandrasekhar limiting
+mass, constitutes one of the most important concepts in stellar astrophysics, and it is respon-
+sible for the differences in the evolutionary properties of low and and high mass stars an in
+their ﬁnal outcomes.
+6
+Fig. 2 Mass distribution of H-rich white dwarfs with Teff > 12,000 K. The peak mass is located at M =
+0.562M⊙. From Madej et al. (2004). Reproduced by permision of ESO.
+2.2 Mass distribution
+The number of known white dwarfs has increased signiﬁcantly from one in 1914 in the ﬁrst
+Herztsprung-Russell diagram to about 1,000 in the 1970s as a result of targeted searches
+for high proper motion stars. More recently, imaging surveys provided by the Sloan Digital
+Sky Survey (SDSS) have largely expanded the number of spectroscopically identiﬁed white
+dwarfs to about 10,000 (Eisenstein et al. 2006), including t he detection of ultracool white
+dwarfs, pulsating H-rich white dwarfs and H-deﬁcient white dwarfs. This increase in the
+number of detected white dwarfs has extraordinarily improv ed our knowledge of the white
+dwarf luminosity and mass functions. In addition, spectroscopy of this much enlarged sam-
+ple led to the discovery of new and interesting species of deg enerate stars (Eisenstein et al.
+2006; Koester et al. 2009).
+It is now accepted that white dwarfs constitute the end-prod uct of all stars with initial
+masses up to ∼ 11M⊙ (Siess 2007). Most of the mass of a typical white dwarf is contained
+in its core, which is made of the products of He burning, mostl y carbon and oxygen. Small
+amounts of H and He are left over after the mass-loss phases have ended. Taking into account
+the previous thermonuclear history and the efﬁciency of gravitational settling, it is expected
+that the structure of a typical white dwarf corresponds to that of a compositionally stratiﬁed
+object with a mass of about 0 .6M⊙ consisting of a carbon-oxygen core surrounded by a
+thin, He-rich envelope — of at most 0 .01M⊙ — surrounded itself by a thinner H-rich layer
+of ∼ 10−4 M⊙. Although very thin, the outer layers are extremely opaque t o radiation and
+regulate the energy outﬂow of the star, thus playing, as we saw, a crucial role in the evolution
+of a white dwarf.
+7
+An important property of the white dwarf population is their mass distribution, which
+conveys information about the evolution of our Galaxy. Fromthe mass distribution of white
+dwarfs it is possible to constrain the late stages of stellarevolution since it reveals the amount
+of mass lost during the lifetime of the star from the main sequence (Liebert et al. 2005). The
+surface gravities and effective temperatures of white dwar fs are usually determined from
+model atmosphere ﬁts to spectral lines. On average, it turns out that white dwarfs are char-
+acterized by surface gravities logg ≃ 8. Coupled with theoretical mass-radius relations, this
+yields average masses of M ≈ 0.6M⊙. In passing, we note that for cool white dwarfs, H and
+He spectral lines are not visible and the stellar radius (and mass) have to be inferred from
+accurate trigonometric parallaxes and mass-radius relations. Typical white dwarf mass dis-
+tributions (see Fig. 2) show that the values of the masses of most white dwarfs cluster around
+this value (Kepler et al. 2007), with a tail extending towards high stellar masses. The rather
+narrow mass distribution of white dwarfs is a remarkable characteristic of these stars. Mas-
+sive white dwarfs have spectroscopically determined masses within 1.0 and 1.3M⊙ and are
+believed to harbor cores composed mainly of oxygen and neon — at least for non-rotating
+stars (Dom´ ınguez et al. 1996; Ritossa et al. 1996) — in contr ast to average-mass white
+dwarfs, for which carbon-oxygen cores are expected. The exi stence of such massive white
+dwarfs has been suggested to be the result of the merger of twoaveraged-mass white dwarfs
+in close binaries (Guerrero et al. 2004; Lor´ en-Aguilar et a l. 2009) or of the evolution of
+heavy-weight intermediate-mass single stars that have experienced repeated carbon-burning
+shell ﬂashes (Ritossa et al. 1999). Finally, the white dwarf mass distribution comprises a
+population of low-mass remnants. Because low-mass progeni tors would need exceedingly
+large ages to reach the white dwarf stage, these low-mass white dwarfs are mostly produced
+in binary systems, where the stellar evolution has been truncated by mass transfer (Sarna et.
+al 1999).
+2.3 The white dwarf luminosity function
+Fifty years ago (Schmidt 1959) it was ﬁrst recognized that th e coolest and faintest white
+dwarfs are the remnants of the earliest stars formed in the So lar neighborhood, and that
+the cooling theory which we will review below could be very us eful to estimate the time
+elapsed since star formation started in the Galactic disk. T he fundamental tool for studying
+the properties of the white dwarf population is the white dwa rf luminosity function, which
+is deﬁned as the number of white dwarfs per cubic parsec and un it bolometric magnitude
+(or luminosity) as a function of the bolometric magnitude (or luminosity). The white dwarf
+luminosity function not only can provide valuable informat ion about the age, structure and
+evolution of our Galaxy but it also provides an independent t est of the theory of dense
+plasmas (Isern et al. 1997; Isern et al. 1998). Also, it direc tly constrains the current death
+rate of low- and intermediate-mass stars in the local neighb orhood which, in turn, provides
+an important tool to evaluate pre-white dwarf stellar evolu tionary sequences. Furthermore,
+the relative simplicity of the structure and evolution of white dwarfs makes them extremely
+useful as astroparticle physics laboratories (Raffelt 199 6; C´ orsico et al. 2001b). However,
+in order to use the white dwarf luminosity function to attack these astrophysical problems,
+it is necessary to have good observational data, good evolut ionary models and good input
+physics. Three decades later, the white dwarf luminosity function has helped in dealing with
+all these problems and many more. The observational white dw arf luminosity function, its
+uses and inherent limitations have been discussed over the y ears in a number of excellent
+8
+Fig. 3 Luminosity function of disk white dwarfs derived from the SD SS, from Harris et al. (2006). Repro-
+duced by permission of the AAS.
+papers (Weidemann 2000; M´ endez & Ruiz 2001; Bergeron et al. 2001; Hansen & Liebert
+2003).
+At the present time, the most promising source of large numbers of new white dwarfs in
+both the disk and halo is the SDSS (York et al. 2000). Thus far, about 10,000 white dwarfs
+have been identiﬁed in the SDSS (Harris et al. 2006; Eisenste in et al. 2006; DeGennaro et
+al. 2008) using the reduced proper motion diagram ﬁrst described in Luyten (1922). For this
+sample, the disk white dwarf luminosity function was constr ucted using improved proper
+motions based on comparison of positions between the SDSS an d USNO surveys, high
+quality ugriz photometry, and improved atmospheric models. The resultin g white dwarf
+luminosity function is surprisingly smooth and drops off ab ruptly at Mbol = 15.3 — see
+Fig. 3.
+2.4 Spectroscopic classiﬁcation
+Traditionally, white dwarfs have been classiﬁed into two di stinct families according to the
+main constituent of their surface. Spectroscopic observations reveal that the surface compo-
+sition of most white dwarfs consists almost entirely of H wit h at most traces of other ele-
+9
+DB
+gap ?
+DQ
+diffusion
+H floating
+C dredge-up
+thin He envelope
+DQ ?DA DAB
+thin H
+envelope
+hot DQ
+DA
+DA
+DA DB
+DO
+PG 1159
+dilution ?
+Teff
+150,000K
+70,000K
+45,000K
+30,000K
+20,000K
+Merger 
+episodes
+Fig. 4 A scheme of the several evolutionary paths that hot white dwarfs may follow as they evolve. The left
+column gives the effective temperature. Most white dwarfs a re formed with H-rich envelopes (DA spectral
+type), and remain as such throughout their entire evolution (second column). H-deﬁcient white dwarfs like
+DOs may follow different paths, either from the hot and He-, carbon-, and oxygen-rich PG 1159 stars or from
+post-merger events. Traces of H in PG 1159s and DOs may lead toother white dwarf varieties. PG 1159 stars
+are also believed to be the predecesors of the recently disco vered new class of white dwarfs: the hot DQs,
+with carbon-rich atmospheres. Accretion of metals by cool He-rich white dwarfs from interstellar medium or
+from circumstellar matter may lead to DZ white dwarfs.
+ments. These are the so-called DA white dwarfs and they compr ise about 85% of all white
+dwarfs — see Eisenstein et al. (2006) and references therein . To the other family belong the
+H-deﬁcient white dwarfs with He-rich atmospheres, usuallyknown as non-DA white dwarfs,
+which make up to almost 15% of the total population. H-deﬁcient white dwarfs are thought
+to be the result of late thermal ﬂashes experienced by post-A GB progenitors or of merger
+episodes. The non-DA white dwarfs are usually divided into s everal different subclasses:
+the DO spectral type (with effective temperatures 45 000 K ≤ Teff ≤ 200000 K) that shows
+relatively strong lines of singly ionized He (He II), the DB type (11 000 K ≤ Teff ≤ 30000
+K), with strong neutral He (He I) lines, and the DC, DQ, and DZ types ( Teff < 11000 K)
+showing traces of carbon and metals in their spectra. As a DO w hite dwarf evolves, the
+10
+HeII recombines to form HeI, ultimately transforming into a DB white dwarf. The transition
+from DO to the cooler DB stage is interrupted by the non-DA gap (that occurs at 30 000
+K < Teff < 45000 K) where few objects with H-deﬁcient atmospheres have been observed
+(Eisenstein et al. 2006). To this list, we have to add those wh ite dwarfs with hybrid atmo-
+spheres or peculiar abundances, and the recent discovery ofa new white dwarf spectral type
+with carbon-dominated atmospheres, the “hot DQ” white dwarfs, with Teff ∼ 20000 K (Du-
+four et al. 2007, 2008a). Hot DQ white dwarfs are thought to be the cooler descendants of
+some PG 1159 stars, and the result of convective mixing at sma ller effective temperatures
+(Dufour et al. 2008a; Althaus et al. 2009b).
+Although this classiﬁcation is in line with our understandi ng that most giant stars will
+evolve into white dwarfs with either H-rich atmospheres or H-deﬁcient composition, the ex-
+istence of some of these white dwarfs poses a real challenge to the theory of stellar evolution,
+which cannot adequately explain their origin. Finally, there is ample observational evidence
+that individual white dwarfs undergo spectral evolution, i .e., the surface composition of a
+given white dwarf may change as it evolves as a result of competing processes such as con-
+vection, mass-loss episodes, accretion, radiative levita tion and gravitational settling. The
+interplay between these processes may help to understand th e different evolutionary paths
+that white dwarfs may follow as the surface temperature decreases, see Fig. 4. For instance,
+the empirical evidence that the ratio of DA to non-DA white dw arfs changes with effective
+temperature and the existence of the non-DA gap are interpre ted as the result of changes
+in the surface composition from He-dominated to H-dominated and vice versa as evolution
+proceeds. Also, the presence of traces of H in the outer layer s of the hot H-deﬁcient white
+dwarfs like PG 1159s or DOs can turn the spectral type of these white dwarfs into that of a
+DA type as a result of gravitational settling.
+White dwarfs span a wide range of both effective temperature s and luminosities. Val-
+ues of Teff range from about 150 000 K for the hottest members to 4 000 K for the coolest
+degenerate dwarfs. The stellar luminosity ranges from roug hly 10 3 to about 10 −5 L⊙ for
+the faintest observed white dwarfs. The majority of known white dwarfs have temperatures
+higher than the Sun and hence the “white” in their name. Becau se the intrinsic faintness
+of most white dwarfs, quantitative studies of these stars, traditionally based on photometric
+and spectroscopic observations, are restricted to nearby o bjects. Hence, the vast majority
+of observed white dwarfs are representative of the solar neighborhood. Other observational
+techniques and the advent of large-scale ground-based surveys and deep Hubble Space Tele-
+scope exposures, have revealed the presence of white dwarf populations located well beyond
+our own neighborhood, such as in distant open and globular clusters and, most probably, in
+the Galactic halo, thus enabling us to extract information a nd to constrain the properties of
+such populations.
+2.5 Simple treatment of white dwarf structure and evolution
+As previously mentioned, white dwarfs have numerous applications in different ﬁelds of as-
+trophysics. In particular, the use of white dwarfs as accurate cosmic clocks has led over the
+years to the development of detailed evolutionary models of these stars, including sophis-
+ticated constitutive microphysics. Before describing such models, we will discuss a simple
+treatment of white dwarf evolution. At the high densities of white dwarf interiors, matter is
+completely pressure-ionized and the chemical potential of the electron gas is much larger
+than the thermal energy. This means that the Fermi-Dirac distribution that characterizes elec-
+trons reduces to a step-like function. In particular, all the energy states up to the Fermi energy
+11
+(εF) are occupied. Thus, to a very good approximation, electrons are almost completely de-
+generate, and those electrons with energies close to εF will make the largest contribution to
+the pressure. Hence, to a ﬁrst approximation, the mechanica l structure of white dwarfs can
+be described in terms of a Fermi gas at zero temperature.
+A key feature to understand the evolution of white dwarfs is t hat in degenerate conﬁg-
+urations, the mechanical and thermal structures are, to a go od approximation, decoupled
+from each other and, thus, can be treated separately. This basic property of degenerate struc-
+tures will allow us to derive a simple picture of how white dwa rfs evolve with time and to
+discuss the role played by the different physical processes in the evolution of these stars.
+Indeed, the remaining thermal reservoir (which implies T ⁄= 0) is responsible for radiation
+and, thus, for the evolution of white dwarfs. Instead, for th e mechanical structure, the limit
+T = 0 is usually assumed. Accordingly, in what follows, we will t reat the mechanical and
+thermal structures separately. We begin by describing the structure of white dwarfs, as given
+by the zero-temperature approximation. Then in Sect. 2.5.2we will describe a simple model
+to understand the basic thermal properties of white dwarfs r esponsible for their evolution.
+We will show that evolution can be described essentially as arather simple cooling process,
+where the source of star luminosity is approximately provided by the change in the internal
+energy stored in the ions.
+2.5.1 Zero-temperature approximation: Chandrasekhar’s theory
+In this approximation, the structure of a white dwarf is dete rmined by the pressure of non-
+interacting completely degenerate electrons. In the limit of complete degeneracy, the elec-
+tron pressure can be easily derived by considering only the e nergy states up to εF. The
+pressure and mass density have the well-known form:
+P = 8π
+3h3
+∫ pF
+0
+(p4/me)d p√
+1 + (p/mec)2
+= A [x(x2 + 1)1/2(2x2 − 3) +3sinh −1(x)]
+(1)
+ρ = C x3 ,
+where the dimensionless Fermi momentum is given by x = pF/mec, A = πm4
+ec5/3 h3 and
+C = 8πm3
+ec3μeMu/3 h3, and the rest of the symbols have their usual meaning. Note that this
+expression is valid for any relativistic degree.
+For a spherically symmetric white dwarf at zero temperature , the equilibrium structure
+is speciﬁed by the equations of hydrostatic equilibrium and mass conservation
+dP
+dr = −Gmρ
+r2
+(2)
+dm
+dr = 4πr2ρ ,
+together with the equation of state given in Eq. (1) and the usual boundary conditions. Here,
+r is the radial coordinate and m the mass inside a sphere of radius r.
+Chandrasekhar (1939) showed that the problem can be reformulated into a second order
+differential equation for a dimensionless function with essentially two parameters that have
+12
+to be speciﬁed: the chemical composition via the molecular weight per electron (μe) and the
+central density. To see this, note ﬁrst that Eqs. (2) can be casted in the form
+d
+dr
+( r2
+ρ
+dP
+dr
+)
+= −4πGr 2ρ . (3)
+Introducing the variables η = r/α , y =
+√
+1 + x2, and Φ = y/y0, it is straightforwardly found
+1
+η 2
+d
+dη
+(
+η 2 dΦ
+dη
+)
+= −
+(
+Φ 2 − 1
+y2
+0
+) 3/2
+, (4)
+where y2
+0 = x2
+0 +1 is related to the central density,ρ0, via Eq. (1), that is, ρ0 = C(y02 −1)3/2
+and α is given by
+α =
+( 2A
+πG
+) 1/2 1
+Cy0
+. (5)
+Eq. (4) describes the structure of completely degenerate conﬁgurations based on the equation
+of state of a degenerate electron gas. It takes into account t he gradual change from non-
+relativistic to relativistic electrons, with increasing d ensity. Eq. (4) is solved numerically
+with the boundary conditions:Φ (0) = 1 and Φ (ηI) = 1/y0, where ηI deﬁnes the radius of the
+stellar conﬁguration, R = α η I. For a ﬁxed value of μe, i.e., a given chemical composition,
+a one-parameter family of models is thus obtained integrati ng Eq. (4) for different values
+of the central density, thus deﬁning implicitly a relation b etween mass and radius such that
+the more massive the star, the smaller its size. This is the fa mous mass-radius relation for
+white dwarf stars. In the limit ρ → ∞, the relativistic “softening” of the equation of state
+(for relativistic electrons, P ∼ ρ4/3) causes the radius R to become zero, while the mass
+approaches a limiting value 5 .826/μ2
+e M⊙, the Chandrasekhar limiting mass. According to
+our present understanding of stellar evolution, a core madeof carbon and oxygen is expected
+for most white dwarfs. In this case, μe ≈ 2, and the Chandrasekhar mass becomes 1.45M⊙.
+For larger masses, gravitational forces overwhelm the elec tron pressure support, and no
+stable white dwarf can exist.
+The theoretical mass-radius relation for white dwarfs, whi ch can be improved by in-
+cluding corrections to the equation of state and ﬁnite-temp erature effects, is an accepted
+underlying assumption in nearly all studies of white dwarfs properties, including the white
+dwarf mass distribution and the luminosity function, which in turn convey important infor-
+mation about Galactic evolution and about the late stages of stellar evolution. Because of
+this, it is essential to provide observational support for t his theoretical relation. This means
+that it is necessary to obtain independent measures of the ma ss and radius of individual
+white dwarfs. The best way to do this is for white dwarfs in vis ual binaries, where the
+stellar mass can be inferred from Kepler’s law and the radius can be obtained from a ﬁt
+to the spectrum of the white dwarf atmosphere, once the dista nce to the binary system is
+known. Independent determinations of radius and mass can al so be obtained from white
+dwarfs with measured gravitational redshifts in binary systems. Although independent mass
+and radius determinations are available only for a few white dwarfs, they strongly support
+the theoretical mass-radius relation and the existence of a limiting mass. Another remark-
+able consequence of these observational determinations is that they discard the existence
+13
+of white dwarfs with H-rich cores. Note that for white dwarfs with H-rich cores ( μe ≃ 1),
+the mass of the equilibrium conﬁguration is much larger for a given stellar radius than that
+resulting from a carbon-oxygen composition. This is in agre ement with the results of the
+stellar evolution theory, which predicts that H is burnt into heavier elements in evolutionary
+stages previous to the white dwarf formation.
+The Chandrasekhar limiting mass is one of the most importantconcepts in astrophysics.
+The existence of a limiting mass has strong implications not only for the theory of white
+dwarfs itself, but also for stellar evolution in general. This is particularly true regarding the
+occurrence of mass-loss episodes: low-mass stars must lose a large fraction of their mass at
+some point of their evolution to end-up as white dwarfs with m asses smaller than 1 .4M⊙.
+Finally, the concept of the Chandrasekhar limiting mass is i ntimately connected with the
+most energetic events known in the Universe: supernovae. Those supernovae which do not
+show H in their spectra — known as type I supernova (SNIa), or t hermonuclear supernovae
+— are thought to be the result of a instability of a white dwarf with a mass close to the
+Chandrasekhar mass. One of the two proposed mechanisms to ex plain the properties of
+SNIa involves a massive white dwarf progenitor in a binary sy stem accreting from a non-
+degenerate companion — see Branch et al. (1995) and Kotak (20 08) for a recent review.
+The second mechanism involves the merger of two white dwarfswith sufﬁciently large stel-
+lar masses due to the secular radiation of gravitational waves in a close binary system — see
+Lor´ en–Aguilar et al. (2009) and references therein for recent three-dimensional calculations
+of this phenomenon. In the ﬁrst scenario, mass transfer froman accretion disk onto the mas-
+sive white dwarf may cause the white dwarf to exceed the Chandrasekhar mass, thus leading
+to a thermonuclear runaway and a explosion that completely disrupts the white dwarf. In the
+second scenario, the coalescence process may lead to high en ough temperatures to ignite
+the degenerate merger remnant, leading again to the same ﬁna l output. On the other hand,
+core collapse supernovae arise from stars with degenerate cores with masses larger than the
+Chandraskhar limiting mass.
+2.5.2 Mestel’s model of white dwarf evolution
+The zero-temperature model we have described in the previou s section provides an appro-
+priate description of the mechanical structure of white dwa rfs. However, white dwarfs are
+not zero temperature stars. In fact, they are observed to hav e high surface temperatures
+and to lose energy, which implies the existence of temperature gradients, and consequently
+of higher interior temperatures. Thus, white dwarfs are not static objects and are expected
+to experience some kind of evolution. As we already mentione d, the advantage of dealing
+with degenerate conﬁgurations is that the mechanical and thermal properties are effectively
+decoupled from each other. This allows us to capture the main features of white dwarf evo-
+lution by means of a very simple model, which is often referre d to as the Mestel’s model
+(Mestel 1952). Here, the problem of the evolution of white dw arfs reduces essentially to
+two main aspects. The ﬁrst of these consists in the determination of the total energy content,
+E, of the star, whilst the second one is the determination of th e rate at which this energy is
+radiated away.
+The ﬁrst problem involves a detailed knowledge of the thermodynamics of the degener-
+ate core of the white dwarf, which contains more than 99% of th e mass, and the structure
+of which is speciﬁed, as we saw, by completely degenerate ele ctrons (T = 0). An impor-
+tant property of the core, which simpliﬁes the evaluation of E, is that it is characterized by
+an almost constant temperature, Tc. This is because degenerate electrons are very efﬁcient
+at transporting energy, and thus a very small temperature gr adient is required to transport
+14
+the energy ﬂux in the core. Although the assumption of an isot hermal core is not valid in
+young and hot white dwarfs, where neutrinos constitute a main energy sink, it is completely
+justiﬁed in evolved and cool white dwarfs. The second proble m involves the solution of
+the equation of energy transfer through the non-degenerate envelope above the core. In the
+envelope, energy is transferred by radiation and/or convection, which are less efﬁcient mech-
+anisms than electron conduction. In fact, the extremely large temperature drop between the
+core and the surface occurs mainly in the opaque envelope. Be cause of this, the envelopes
+of white dwarfs play a key role in white dwarf evolution, since they control the rate at which
+energy is transferred from the core into space.
+In what follows, a simple approach to solve the problem of ene rgy transfer in the outer
+layers of a white dwarf will be explained. By making reasonab le simpliﬁcations, simple
+power law relations between the surface luminosity, the ste llar mass and the central tem-
+perature of the white dwarf will be derived. The ﬁrst of these simpliﬁcations concerns the
+way in which energy is transported throughout the envelope. We will assume that energy is
+transferred only by radiation, which is true except for cool white dwarfs, where convection
+is the dominant mechanism of transport in the outer layers. In this case, the structure of the
+envelope is speciﬁed by the equation of hydrostatic equilibrium, Eq. (2), and the equation of
+radiative transfer, as given by the photon diffusion equation (Kippenhahn & Weigert 1990)
+dT
+dr = − 3
+4ac
+κρ
+T 3
+Lr
+4πr2 , (6)
+where Lr is the luminosity or the net ﬂux of energy transported through the sphere of radius
+r (erg /s), and κ is the radiative opacity. A common approximation for the radiative opacity
+is to adopt Kramers’s law for bound-free and free-free proce sses: κ = κ0 ρ T −3.5, where
+κ0 depends on the chemical composition of the envelope. We will also assume that the
+envelope is thin enough that m ≈ M (low density), and that any source or sink of energy can
+be neglected in the envelope, so that Lr ≈ L, where L means the surface luminosity. Under
+these assumptions, the equation for the thermal structure o f the envelope can be derived by
+dividing the hydrostatic equilibrium equation by Eq. (6):
+dP
+dT = 16πac
+3κ0
+GMT 6.5
+ρL . (7)
+To integrate this equation the equation of state for the enve lope must be speciﬁed. Be-
+cause white dwarfs are observed to have high effective tempe ratures, and considering the
+smaller densities characterizing the very outer layers, we expect the envelope to be non-
+degenerate. Thus, we will assume that the equation of state is that of a non-degenerate, ideal
+gas (ions and electrons), which is given by
+P = ℜ
+μ ρT with μ−1 = ∑
+i
+(1 + Zi) Xi
+Ai
+. (8)
+Here ℜ is the gas constant, μ is the mean molecular weight, Ai the atomic weight, Zi the
+charge number, and Xi the abundance by mass fraction of the chemical species i. Thus, Eq.
+(7) becomes now
+15
+P dP = 16πac
+3κ0
+ℜ GM
+Lμ T 7.5 dT . (9)
+We integrate this equation from the surface, where we assume P = 0 and T = 0, to
+the base of the envelope as deﬁned by the transition layer. Th is layer is an idealized rep-
+resentation of the abrupt transition that separates the inn er degenerate core from the thin,
+non-degenerate envelope. The integration yields
+ρtr =
+( 32πac
+8.5 3κ0
+μ
+ℜ
+GM
+L
+) 1/2
+T 3.25
+tr , (10)
+which provides a relation between the density and temperature at the transition layer (ρtr and
+Ttr, respectively) for a white dwarf characterized by stellar mass M and surface luminosityL.
+At the transition layer, the pressure of degenerate electrons is equal to the pressure of an ideal
+gas (pressure is continuous across the transition layer). T his gives us another relation be-
+tween density and temperature at the transition layer. Note that we consider non-relativistic
+electrons. In the non-relativistic limit, x → 0 and Eqs. (1) reduce to P ∼ (ρ/μe)5/3. Thus,
+we have
+1013
+( ρtr
+μe
+) 5/3
+= ℜ
+μe
+ρtrTtr =⇒ ρtr = 2.4 × 10−8μe T 3/2
+tr . (11)
+Because we have assumed that the entire core is isothermal, w e can replace Ttr by the
+core temperature, Tc. Finally, from the last two equations we arrive at a simple po wer law
+relation between the surface luminosity, the stellar mass a nd the central temperature of the
+white dwarf:
+L = 5.7 × 105 μ
+μ2e
+1
+Z(1 + X)
+M
+M⊙
+T 3.5
+c erg /s, (12)
+where Z and X are, respectively, the metallicity of the envelope and the H abundance by
+mass.
+Although some of the assumptions made in the treatment of theenvelope are not usually
+veriﬁed in white dwarfs, the simple relation given by Eq. (12 ) enables us to infer some
+important features of these stars. Speciﬁcally, for typica l compositions and a stellar mass
+of M = 1M⊙, we ﬁnd that for L = 10L⊙ and L = 10−4 L⊙, the central temperatures are of
+the order of Tc ≈ 108 K and Tc ≈ 4 × 106 K, respectively. The high central temperatures
+expected for high-luminosity white dwarfs discard the presence of H in the degenerate core.
+In fact, simple stability arguments show that at the high densities of the core, stable nuclear
+burning is not possible, because the white dwarf would be des troyed by a thermal runaway
+(Mestel 1952). The fact that no nuclear sources can be presen t in the core of white dwarfs
+at their birth, constrains their origin and suggests that wh ite dwarfs must be the result of
+complete H exhaustion occurred at some point in the evolution of their progenitors.
+Before proceeding forward, we can make a simple estimate of t he radial extent of the
+envelope of a typical white dwarf. To this end, we use Eqs. (6) and (10), and Kramers’ law
+to obtain
+16
+dT = − 1
+4.25
+GMμ
+ℜ
+1
+r2 dr . (13)
+We integrate this equation over the radial extent of the envelope
+∫ Ttr
+0
+dT = − 1
+4.25
+GMμ
+ℜ
+∫ Rtr
+R
+1
+r2 dr , (14)
+to obtain
+Ttr = 1
+4.25
+Gμ
+ℜ
+M
+R
+( R
+rtr
+− 1
+)
+(15)
+For a low-luminosity white dwarf with M = 1M⊙, R = 0.01R⊙ and Tc = 4 × 106 K, we
+get R − rtr ≈ 30 km. Thus, a very thin envelope isolates the degenerate cor e from the outer
+space. Through this thin envelope, the temperature drops ap preciably from the central to
+surface values. Although the envelope controls the rate at w hich energy is transferred from
+the core to the space, it has nevertheless little inﬂuence on the structure of the white dwarf.
+In fact, the radius of a white dwarf is well approximated by th e calculations that assume
+complete degeneracy throughout.
+The absence of nuclear energy sources in the white dwarf interiors brings us to our ﬁrst
+point, namely the total energy content, E, of a white dwarf. The precise question to be an-
+swered is the following one. If there is no stable nuclear burning, which energy sources are
+involved when a normal white dwarf radiates energy? It is clear that some energy source or
+reservoir must be present, since if this was not the case it ma y not shine. We will focus on
+this issue in what follows. The ﬁrst point to be noted is that a lthough white dwarfs cannot
+contract appreciably, because of electron degeneracy — und er the conditions of strong de-
+generacy, pressure is almost independent of temperature — the residual contraction resulting
+from the gradually decreasing ion pressure plays an importa nt role in the energy budget of
+the star. This is because white dwarfs are compact objects, and hence a small change of the
+radius releases an important amount of gravitational energy. For instance, for a white dwarf
+with M = 1M⊙, a change of 1% in the radius produces a change in the gravitational energy
+| ∆ Egrav | ∝ GM2
+R
+∆ R
+R ∼ 1048 erg. (16)
+At a typical luminosity of L = 0.1L⊙, this energy would be lost in about 10 8 yr. Thus,
+the energy released by contraction is by no means negligible . It can be shown from the
+virial theorem for degenerate conﬁgurations that the gravi tational energy released during
+contraction is of the same order of magnitude of the stellar luminosity L.
+If we neglect neutrino losses, the total energy content of th e white dwarf results from
+contributions of ions, electrons and gravitational energy , i.e., E = Eion + Eelec + Egrav. The
+luminosity is given by the temporal decrease of the total energy E:
+L = −dE
+dt = − d
+dt (Eion + Eelec + Egrav). (17)
+17
+According to the virial theorem for degenerate conﬁguratio ns, the release of gravita-
+tional energy is used to increase the Fermi energy of the elec trons, εF — speciﬁcally the
+density-dependent contribution of the energy of electrons (Koester 1978). This behavior is
+different from that of a non-degenerate gas, where the released gravitational energy is used
+to increase the internal energy of both ions and electrons. T his gives rise to an important
+simpliﬁcation of the treatment, since in order to compute the temporal change of E, only the
+changes in the thermal contribution to E need to be considered. Indeed, if we assume that
+the core is isothermal, the luminosity of the star can be writ ten in terms of the decrease of
+the central temperature as
+L = − ∂
+∂Tc
+(ET
+ion + ET
+elec) dTc
+dt . (18)
+where ET
+ion and ET
+elec are the total ion and electron thermal energies. Thus, in ter ms of the
+speciﬁc heat of ions and electrons, the luminosity equation becomes
+L = −⟨CV ⟩M dTc
+dt , (19)
+where ⟨CV ⟩ = Celec
+V +Cion
+V and M is the white dwarf mass. Thus, we have a simple relation
+between the luminosity and the rate of change of the central temperature. Clearly, the source
+of luminosity of a white dwarf is essentially the decrease in the thermal energy of ions and
+electrons. Because of this, white dwarf evolution is described as a cooling process. However,
+at low temperatures, Celec
+V ≪ Cion
+V , since strongly degenerate electrons barely contribute to
+the speciﬁc heat. In fact, for strongly degenerate electrons, we have
+Celec
+V ∝ kBT
+εF
+→ 0 . (20)
+Thus, we arrive at the core feature of white dwarf evolution: the source of luminosity of a
+cool white dwarf is basically the change of the internal energy stored in the ions.
+Using the relation between luminosity and central temperature given by Eq. (12), which
+reads L = CMT 3.5
+c , where C is a constant, we get
+CMT 3.5
+c = −⟨Cion
+V ⟩M dTc
+dt . (21)
+We now assume an ideal gas for a single ion. That is, we adopt Cion
+V = 3ℜ /2A, where A is
+the atomic weight, and integrate Eq. (21) from an initial tim e t0 to the present time t. We
+deﬁne the cooling time as tcool = t −t0, and the following cooling law is obtained
+tcool ≈ 108
+A
+( M/M⊙
+L/L⊙
+) 5/7
+years, (22)
+where it has been assumed that the central temperature at the beginning of white dwarf
+formation is much larger than the present central temperature of the white dwarf. This is the
+Mestel’s model of white dwarf evolution (Mestel 1952), and it provides a simple power law
+relation between the cooling time of a white dwarf, and its stellar mass, surface luminosity,
+18
+-6-4-20
+Log L/Lsun
+-6
+-4
+-2Log n (pc
+-3
+)
+Mestel 
+prediction
+drop-off
+Fig. 5 A schematic view of the observed white dwarf luminosity func tion, as a function of the luminosity
+(dots). The prediction of the Mestel law is shown as solid line. Note the sharp cutoff at low luminosities.
+and core chemical composition. ForA = 12 (a pure carbon core), typical cooling ages for the
+faintest observed white dwarfs ( L ∼ 10−4.5 L⊙) of 10 10 yr are derived. These evolutionary
+timescales are sufﬁciently long that white dwarfs remain vi sible for a long time. Thus, the
+white dwarf phase constitutes a major phase in stellar life. Cool white dwarfs are very old
+objects, and considering the relative simplicity of the physical processes responsible for their
+evolution, these stars turn out to be robust tools to date stellar populations.
+Although Mestel’s model is the simplest picture of how whitedwarfs evolve, it captures
+the essentials of the physics of white dwarf evolution. It sh ows that the cooling time of a
+white dwarf is related essentially to its core chemical composition, its mass and its luminos-
+ity. The following major features emerge:
+1. The cooling times depend on the core chemical composition (A) of the white dwarf:
+oxygen white dwarfs are expected to cool faster than carbon w hite dwarfs because the
+speciﬁc heat per gram of oxygen is smaller than that of carbon — there are more ions in
+a gram of carbon than in a gram of oxygen.
+2. Because of their larger thermal content, in principle, massive white dwarfs are character-
+ized by longer cooling times. Moreover, it has to be taken into account as well that these
+white dwarfs also have much smaller radii and, thus, they have smaller luminosities.
+3. The cooling times increase as the luminosity decreases.
+2.5.3 Improvements to Mestel’s model
+As previously mentioned, the white dwarf luminosity functi on gives the number of white
+dwarfs per unit volume and interval of magnitude, as a functi on of the magnitude. To a
+ﬁrst approximation, this number is proportional to the char acteristic cooling time, τcool =
+19
+dtcool/dlog (L/L⊙). According to Mestel’s law, more and more white dwarfs should be ob-
+served at fainter luminosities, as it is indeed the case, see Fig. 3. Nonetheless, as clearly
+shown in Fig. 3, the white dwarf luminosity function present s an abrupt drop-off at very
+low luminosities ( L ∼ 10−4.5 L⊙). This steep cutoff cannot be explained within the frame
+of Mestel’s theory. Fig. 5 depicts a schematic view of the observed white dwarf luminosity
+function together with the prediction given by the Mestel co oling law. Clearly, the theo-
+retical model predicts that the number of white dwarfs shoul d increase monotonically with
+decreasing luminosity. This discrepancy between theory and observation motivated the ex-
+ploration of physical effects that might be responsible for shortening the cooling times at
+very low luminosities. However, nowadays we know that this s hortage of white dwarfs at
+very low luminosities is a consequence of the ﬁnite age of the Galactic disk. Namely, we
+know that the origin of the cutoff is due entirely to the fact that the coolest white dwarfs have
+not had time enough to cool down to luminosities lower than that of the observed drop-off.
+However, let us go step by step. The Mestel model is a reasonab le description of the
+behavior of real white dwarfs only at intermediate luminosi ties, where the assumptions of
+ideal gas, isothermal core, and non-degenerate radiative e nvelope are more or less valid.
+Nevertheless, it requires major improvements if we want to use cool white dwarfs as reliable
+cosmic clocks. In what follows, we will comment on the main ba sic improvements to be
+considered in the physics of white dwarfs and on the expected impact on the cooling times.
+2.5.4 Coulomb interactions and Debye cooling
+At the high densities characteristic of white dwarf interio rs, matter is completely pressure-
+ionized. As early recognized (Kirshnitz 1960; Abrikosov 19 60; Salpeter 1961), Coulomb
+interactions modify the thermodynamical properties of the ion gas, in particular the speciﬁc
+heat. This, in turn, modiﬁes the cooling times of white dwarf s, see Eq. (21). The strength
+of Coulomb interactions — relative to the thermal kinetic en ergy — is determined by the
+Coulomb coupling parameter Γ = (Ze)2/akBT = 2.26 × 105Z5/3ρ1/3/T , where a is the
+inter-ionic separation and kB is the Boltzmann constant. For small values of Γ , Coulomb
+forces are of minor importance (relative to thermal motions ) and the ions behave like an
+ideal non-interacting gas. But, once Γ becomes of order unity, ions begin to undergo short-
+range correlations, eventually behaving like a liquid. For large enough Γ (∼ 180) they form
+a lattice structure, experiencing a ﬁrst order phase transition with the corresponding release
+of latent heat. This results in a new source of energy, which i ntroduces an extra delay in
+the cooling of white dwarfs. In the case of Coulomb plasmas, t he latent heat is small, of
+the order of kBTs per ion, where Ts is the temperature of solidiﬁcation. Its contribution to
+the total luminosity is small, ∼ 5%, but not negligible (Shaviv & Kovetz 1976). In addition,
+there is an increase in the speciﬁc heat of ions in the crystal lized region (according to the
+Dulong-Petit law) due to the extra degree of freedom associa ted with lattice vibration. But
+most importantly, as the white dwarf cools further, fewer mo des of the lattice are excited,
+and the heat capacity drops according to the Debye law. This r educed heat capacity starts
+to manifest once the temperature drops below the Debye tempe rature (θD = 4 × 103ρ1/2),
+resulting in a fast cooling phase (CV ∝ T 3) once θD/T > 15. As a result, the thermal content
+of the white dwarf gets smaller. This fast cooling is expected to take place in very cool white
+dwarfs, that is, those characterized by very low surface luminosities.
+We can estimate the importance of the Debye cooling for white dwarfs as follows.
+From Eq. (21), and approximating the speciﬁc heat of ions in t he Debye regime by Cion
+V ∼
+3.2π4(Tc/θD)3ℜ /A, to a ﬁrst approximation we obtain:
+20
+Table 1 Onset of Debye cooling.
+M (M⊙) θD (K) L (L⊙)
+0.6 7 .0 × 106 10−7
+1.0 2 .2 × 107 10−5.1
+1.2 4 .0 × 107 10−4.1
+C
+∫ t
+t0
+dt ′ = −16π4
+5
+ℜ
+A
+1
+θ3
+D
+∫ T
+T0
+T −1/2
+c dTc, (23)
+where T0 is the initial temperature from which Debye cooling begins (T0 < θD) and T < T0.
+The integration yields the cooling time during the Debye phase
+tD ∼ 32π4
+5
+( T
+θD
+) 3 [ ( T0
+T
+) 1/2
+− 1
+]
+T M
+L
+ℜ
+A . (24)
+Note that the cooling time during the Debye phase is shorter t han the result obtained
+from Mestels law (given by the last factor) when T is smaller than about 0 .1θD. For in-
+stance, if T = 0.05θD then tD is a factor of 4 smaller than that obtained using Mestel’s law.
+It was hoped that this reduction in the cooling times would ex plain the deﬁcit of observed
+white dwarfs below ∼ 10−4.5L⊙. However, it is difﬁcult to attribute to the onset of Debye
+cooling the deﬁciency of white dwarfs observed at low lumino sities. This can be easily
+shown computing, for a given white dwarf mass, the luminosit y at which Debye cooling
+becomes relevant using again the relation between the lumin osity and the central tempera-
+ture (L = CMT 3.5
+c ), and adopting the central temperature corresponding to the onset of rapid
+Debye cooling (of about 0.1θD, as we have just shown). We use the Chandrasekhar’s model
+to estime the central density to computeθD. Table 1 lists, for a given stellar mass, the Debye
+temperature, θD, and the luminosity at the onset of the rapid Debye cooling ph ase. Note
+that, for a typical white dwarf, fast Debye cooling occurs at extremely low luminosities,
+and thus no observable consequences are expected in this case. Debye cooling is relevant at
+observable luminosities only for very massive white dwarfs, which are much less abundant,
+see Fig. 2.
+¿From these simple estimates it can be concluded that the shortage of dim white dwarfs
+is difﬁcult to explain in terms of a rapid cooling. The absence of very low luminosity white
+dwarfs suggests instead that the Galaxy is not sufﬁciently o ld to contain cooler (and thus
+older) white dwarfs. This means that the cutoff of the white dwarf luminosity function is the
+result of the ﬁnite age of the Galaxy — see, for instance, Wing et et al. (1987), Garc´ ıa-Berro
+et al. (1988b), and references therein, for a discussion. Th is feature has been extensively
+and quantitatively explored by numerous investigations to construct detailed white dwarf
+luminosity functions on the basis of sophisticated evolutionary models in order to constrain
+the age of the disk of our Galaxy and to understand crucial asp ects of the history of the
+Galactic disk, like the past star formation rate.
+2.5.5 Physical separation processes
+As already mentioned, when the Coulomb coupling parameter r eaches the critical value
+Γ ≃ 180, crystallization at the center of the white dwarf sets in . Coulomb interactions lead
+21
+quite naturally to crystallization, and the subsequent rel ease of latent heat affects the evo-
+lution of white dwarfs, as shown in the pioneering works of Van Horn (1968) and Lamb &
+Van Horn (1975). The typical luminosities at which this occurs are log(L/L⊙) ∼< −3. Later,
+Stevenson (1980) and Mochkovitch (1983) examined the relea se of gravitational energy
+associated with changes in the chemical composition induce d by crystallization in carbon-
+oxygen mixtures. Because of the spindle shape of the phase diagram of carbon-oxygen mix-
+tures, the solid formed upon cyrstallization is richer in ox ygen than the liquid. As the solid
+(oxygen-rich) core grows at the center of the white dwarf, the lighter carbon-rich liquid left
+behind is efﬁciently redistributed by Rayleigh-Taylor instabilities (Isern et al. 1997). In ad-
+dition, the effects of sedimentation during the liquid phas e of minor species such as 22Ne,
+the most abundant impurity present in the central regions of a white dwarf, and of 56Fe,
+the second most important impurity, have also been studied — see Isern et al. (1991) and
+Xu & Van Horn (1992) respectively, and also Deloye & Bildsten (2002) and Garc´ ıa–Berro
+et al. (2008) for the impact of 22Ne sedimentation on the cooling times of white dwarfs.
+All these works show that a change in the composition of the co res of white dwarfs, either
+by phase separation upon crystallization or by sedimentation during the liquid phase, intro-
+duces an additional source of energy: the release of gravita tional energy due to chemical
+differentiation.
+Strong empirical evidence for the occurrence of these physi cal separation processes
+in the cores of white dwarfs has been recently presented in Ga rc´ ıa–Berro et al. (2010).
+These authors have convincingly shown that these processes constitute an important piece
+of physics that has to be considered to date stellar populati ons using white dwarf cooling
+times. In particular, the contribution of phase separation of carbon-oxygen mixtures upon
+crystallization on the white dwarf cooling times can be asse ssed as follows. The local en-
+ergy budget of the white dwarf can be written as:
+dLr
+dm = −εν − P dV
+dt − dE
+dt , (25)
+where Lr is the local luminosity, εν corresponds to the energy per unit mass per second due
+to neutrino losses, V = 1/ρ, and E is the internal energy per unit mass. If the white dwarf
+is made of two chemical species with atomic numbers Z0 and Z1, mass numbers A0 and A1,
+and abundances by mass X0 and X1, respectively (X0 + X1 = 1), where the sufﬁx 0 refers to
+the heavier component, this equation can be written as:
+−
+( dLr
+dm + εν
+)
+= Cv
+dT
+dt + T
+( ∂P
+∂T
+) dV
+dt − ls
+dM s
+dt δ(m − Ms) +
+( ∂E
+∂X0
+) dX0
+dt , (26)
+where ls is the latent heat and ˙Ms is the rate at which the solid core grows. The delta function
+indicates that the latent heat is released at the solidiﬁcat ion front (Isern et al. 1997; Isern et
+al. 2000). Chemical differentiation contributes to the luminosity not only through compres-
+sional work, which is negligible, but also via the change in the chemical abundances, which
+leads to the last term of this equation. We mention that, to a ﬁrst order, the largest contribu-
+tion to Lr from the change in E cancels the PdV work for any evolutionary change (with or
+without a compositional change). This is, of course, a well known result that can be related
+to the release of gravitational energy. Integrating over the whole star, the next expression is
+obtained:
+22
+L + Lν = −
+∫ M
+0
+Cv
+dT
+dt dm −
+∫ M
+0
+T
+( ∂P
+∂T
+) dV
+dt dm
++ ls
+dMs
+dt −
+∫ M
+0
+( ∂E
+∂X0
+) dX0
+dt dm (27)
+The ﬁrst term of the equation is the well known contribution o f the heat capacity of the
+star to the total luminosity. The second term represents thecontribution to the luminosity due
+to the change of volume. It is in general small since only the t hermal part of the electronic
+pressure, the ideal part of the ions, and the Coulomb terms co ntribute. However, when the
+white dwarf enters into the Debye regime this term provides a bout the 80% of the total
+luminosity, preventing the sudden disappearence of the star (D’Antona & Mazzitelli 1990).
+The third term represents the contribution of the latent heat to the total luminosity at freezing,
+Since the latent heat of a Coulomb plasma is small, its contri bution to the total luminosity
+is modest although not negligible. The last term is the energ y released by the chemical
+readjustment of the white dwarf, that is the release of the en ergy stored in the form of
+chemical potentials. In normal stars the last term is usuall y negligible, since it is much
+smaller than the energy released by nuclear reactions, but it must be taken into account when
+all other energy sources are small. It can be further expande d and related to the difference
+between the chemical abundance of the liquid and the solid as (Isern et al. 1997):
+∫ M
+0
+( ∂E
+∂X0
+) dX0
+dt dm = (Xsol
+0 − Xliq
+0 )
+[ ( ∂E
+∂X0
+)
+Ms
+−
+⟨ ∂E
+∂X0
+⟩ ]
+dMs
+dt (28)
+where (∂E/∂X0)Ms is evaluated at the boundary of the solid core, and
+⟨ ∂E
+∂X0
+⟩
+= 1
+∆ M
+∫
+∆ M
+( ∂E
+∂X0
+)
+dm (29)
+The ﬁrst term in the square bracket in Eq. (28) represents the energy released in the crystal-
+lizing layer — as a result of the increasing concentration of oxygen — and the second term
+is the energy absorbed on average in the convective region ( ∆ M) driven by the Rayleigh-
+Taylor instability above the cyrstallization front, as a result of the decreasing concentration
+of oxygen. Because (∂E/∂X0) is negative — since it is dominated by the ionic contribu-
+tions, which are negative — and essentially depends on the de nsity, the square bracket is
+negative, and thus the process of phase separation results i n a net release of energy. It is
+clear that the energy released by this process will be dependent on the initial oxygen proﬁle
+at the beginning of the white dwarf phase, resulting in a smal ler contribution in the case of
+initially higher oxygen abundances. Note that a change in th e initial chemical proﬁle may
+also affect the degree of mixing in the liquid layers and thus the energy absorbed there,
+hence altering the net energy released by the process.
+Furthermore, it is possible to deﬁne the total energy releas ed per gram of crystallized
+matter due to the change in chemical composition as:
+εg = −(Xsol
+0 − Xliq
+0 )
+[ ( ∂E
+∂X0
+)
+Ms
+−
+⟨ ∂E
+∂X0
+⟩ ]
+(30)
+23
+¿From this, the decrease in the cooling rate introduced by chemical differentiation upon
+solidiﬁcation can be easily estimated to a good approximation if it is assumed that the lumi-
+nosity of the white dwarf only depends on the temperature of the nearly isothermal core. In
+this case:
+∆t =
+∫ M
+0
+εg(Tc)
+L(Tc) dm (31)
+where εg is is the energy released per unit of crystallized mass and Tc is the temperature
+of the core when the crystallization front is located at m. For the case of an otherwise typ-
+ical 0.6M⊙ white dwarf, the total energy released by chemical differen tiation amounts to
+∆ E ∼ 2 × 1046 erg and the corresponding time delay at L = 10−4.5 L⊙ is ∆t ∼ 1.8 Gyr. Of
+course, the total increase in the cooling times depends on the initial chemical proﬁle and on
+the transparency of the envelope as well. The importance of t he envelope is crucial for two
+reasons. Clearly, more transparent envelopes result in faster energy losses and shorter cool-
+ing times. The second reason is more subtle and has been large ly overlooked until recently
+(Fontaine et al. 2001). At approximately the same evolution ary stage at which crystalliza-
+tion sets in, the external convection zone penetrates the region where thermal conduction by
+degenerate electrons is very efﬁcient. Such an occurrence ( known as convective coupling),
+initially produces a further decrease in the cooling rate, b ut this will be the subject of our
+next section.
+2.5.6 Convection
+In the envelope of cool white dwarfs, energy is transferred n ot only by radiation, but also
+by convection, which is a consequence of the recombination o f the main atmospheric con-
+stituents. With decreasing temperature, the base of the con vection zone gradually moves
+deeper into the star, following the region of partial ioniza tion. As long as convection does
+not reach the degenerate core, the convergence of the envelo pe temperature proﬁle to the
+radiative temperature gradient causes the central temperature to be independent of the outer
+boundary conditions, namely the chemical stratiﬁcation ofthe envelope or the detailed treat-
+ment of convection. When this is the case the heat ﬂow depends basically on the opacity at
+the edge of the degenerate core, as it is assumed in the Mestel approximation. However, at
+low luminosities convection reaches the degenerate core an d the radiative gradient conver-
+gence is lost. The thermal proﬁle of an old white dwarf become s thus strongly constrained,
+with the consequence that changes in the atmospheric parame ters are reﬂected in changes
+in the core temperature. In fact, the degenerate core is isothermal, and convection — which
+extends from the atmosphere to the outer edge of the core — is e ssentially adiabatic. This
+so-called convective coupling modiﬁes the relationship between the luminosity of the white
+dwarf and its core temperature, and, thus, the rate of cooling of cool white dwarfs (D’Antona
+& Mazzitelli 1989; Fontaine et al. 2001). In particular, thecore temperature becomes smaller
+— convection is much more efﬁcient than radiation at transpo rting energy — as compared
+with the predictions of purely radiative envelopes. Due to the lower central temperature, the
+star has initially an excess of thermal energy that has to get rid of. This causes a decrease
+in the cooling rate at low luminosities. Depending on the chemical stratiﬁcation of the outer
+layer, convective coupling occurs at different times in the lifes of white dwarfs (D’Antona
+& Mazzitelli 1989). This is critical to understand the different cooling speeds of cool white
+dwarfs with different envelope compositions. Finally, con vection, and the corresponding
+mixing episodes, plays a key role in the interpretation of sp ectral evolution (the observed
+24
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0/0
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1/1
+−4
+−1
+8 9 10
+−2
+−3
+Log L/Lsun
+0.9 Msun
+0.4 Msun
+1.2 Msun
+Log age
+crystallization
+Debye cooling
+Fig. 6 Surface luminosity as a function of the cooling time for white dwarfs with a carbon core and different
+stellar masses. The onset of crystallization and Debye cool ing are indicated. These cooling curves are based
+on reliable relationships between the luminosity and the ce ntral temperature, and better input physics than
+those assumed in the Mestel’s model. See text for details.
+change in surface composition of a white dwarf as it evolves) of these stars. This is partic-
+ularly true if the white dwarf is formed with a thin H envelope , and convection penetrates
+beyond the surface H layers (Fontaine et al. 2001).
+2.5.7 Speciﬁc heat of electrons
+The Mestel model assumes that electrons are completely dege nerate and so Celec
+V ≪ Cion
+V .
+This is true for low-luminosity (low Tc) white dwarfs, where the speciﬁc heat of strongly
+degenerate electrons is Celec
+V ∝ kBT /εF → 0. But at high luminosities and particularly for
+low-mass white dwarfs, the energy of electrons is not comple tely independent of temper-
+ature. Hence, the speciﬁc heat of electrons must be consider ed in the calculation of the
+thermal energy content of the white dwarf. For instance, for a 0 .5M⊙ carbon-rich white
+dwarf at Tc ∼ 107 K (L ∼ 10−3L⊙), Celec
+V ∼ 0.25Cion
+V .
+2.5.8 Changes in the Mestel’s cooling law
+All the previously described physical processes alter the cooling times of white dwarfs given
+by the simple Mestel’s cooling law. Improved cooling times can be obtained by considering
+L − Tc relations that take into account energy transfer by convect ion in the envelope of
+cool white dwarfs, and a better treatment of the opacity and o f the equation of state in the
+envelope than that assumed in the Mestel model. These improv ed L − Tc relations together
+with a more realistic treatment of the thermal energy conten t that considers the effects of
+Coulomb interactions (plus the release of latent heat on crystallization) and Debye cooling,
+as well as the speciﬁc heat of electrons can be used to calculate improved cooling times. The
+25
+results of these calculations are depicted in Fig. 6 — see, fo r instance, Koester (1972). The
+main conclusions are:
+1. The dependence of cooling times on the stellar mass is diff erent from that predicted
+by the Mestel model ( τ ∝ M5/7). This is especially true at high luminosities where the
+contribution of electrons to the speciﬁc heat increases the cooling times of low-mass
+white dwarfs — because of their smaller electron degeneracy — and at low luminosities
+where massive white dwarfs cool faster as a result of Debye cooling.
+2. The impact of crystallization on the cooling times is stro ngly dependent on the stellar
+mass and core composition. In particular, massive white dwarfs crystallize at very high
+luminosities because of their larger densities. Thus, the corresponding delay introduced
+by the release of latent heat has a smaller effect on the cooling times.
+3. The cooling times strongly depend on core chemical compos ition, as predicted by the
+Mestel’s model (τ ∝ 1/A).
+4. At observable luminosities, Debye cooling is relevant on ly for M > 1M⊙.
+3 The progenitors of white dwarfs
+3.1 Which stars become white dwarfs?
+It is generally accepted that the immediate progenitors of t he vast majority of white dwarfs
+are nuclei of planetary nebulae, which are the products of intermediate- and low-mass main
+sequence star evolution. Stars that begin their lives with m asses less than about 10 ± 2M⊙
+are expected to become white dwarfs (Ritossa et al. 1999; Siess 2007). Comparing this limit
+with the mass distribution on the main sequence at birth, this means that certainly more than
+95% of all stars will become white dwarfs. Typically, a 8 M⊙ progenitor seems to lead to a
+remnant of ∼ 1M⊙ and a 1 M⊙ star to one of about 0 .5M⊙. Because the exceedingly large
+time required for a low-mass main sequence star (less than 0.8M⊙) to become a white dwarf,
+most white dwarfs with stellar masses smaller than 0.4M⊙ are expected not to be the result
+of single stellar evolution, but instead, the result of mass transfer in binary systems.
+The fact that the maximum mass of a white dwarf is about 1.4M⊙ — the Chandrasekhar
+limiting mass — hints at the occurrence of strong mass loss during the progenitor star evolu-
+tion, particularly during the AGB stage, in agreement with the existing observations for this
+evolutionary phase. For instance, in the famous Hyades clus ter, stars with about 2 M⊙, the
+turn-off point, are still on the main sequence, but the clust er contains several white dwarfs.
+These white dwarfs have typical masses of 0.6M⊙, but on the main sequence their progen-
+itors must have been more massive than the turn-off point, or they would not have evolved
+— see, for instance, Weidemann (2000) and references therei n. The difference between the
+turn-off age of the cluster and the cooling age of white dwarf s determines the time that
+the progenitor of the white dwarf spent on the main sequence a nd on the giant phase and,
+thus, determines the original progenitor mass. In this way arelation between initial and ﬁnal
+masses can be constructed — see, Catal´ an et al. (2008), Case well et al. (2009) and Salaris
+et al. (2009) for recent determinations of the initial and ﬁn al masses as inferred from white
+dwarfs in stellar clusters.
+26
+3.544.555.5
+Log (Teff)
+-4
+-2
+0
+2
+4
+Log (L/Lsun)
+Planetary Nebulae
+White Dwarf Cooling Track
+ZAMS
+AGB
+Neutrino Cooling
+Crystallization
+MS
+Core
+TP
+Mass Loss
+DOV
+DBV
+Gravitational Settling
+Envelope
+Convection
+Thermal Cooling
+Hydrogen Shell burning
+DAV
+Fig. 7 Hertzsprung-Russell diagram for the full evolution of a 3.5M⊙ star from the ZAMS to the white dwarf
+domain. Mass-loss episodes at the thermally pulsing AGB red uce the stellar mass to 0 .66M⊙. The various
+physical processes which occur as white dwarfs cool as well a s the domain of the pulsating instability strips
+for the DOV , DBV and DA V are indicated. Thin dashed line displays the neutrino luminosity.
+3.2 Prehistory of a typical white dwarf
+The main phases in the life of a typical white dwarf progenito r are visualized in the Hertz-
+sprung-Russell diagram of Fig. 7. After the long-lived stage of central H burning during the
+main sequence phase, the progenitor star evolves to the red giant region to burn He in its core.
+Here, the carbon-oxygen core composition that will charact erize the emerging white dwarf
+remnant is built up. After the end of core He burning, evolution proceeds to the AGB. There,
+the He burning shell becomes unstable and the star undergoesrecurrent thermal instabilities
+commonly referred to as thermal pulses. As evolution proceeds along the AGB, the mass of
+the carbon-oxygen core increases considerably by virtue ofthe outward-moving He burning
+shell. Also, during this stage most of the remaining H-rich envelope is ejected through very
+strong mass-loss episodes. When the mass fraction of the remaining envelope is reduced to
+∼ 10−3 M⊙ the remnant star moves rapidly to the left in the Hertzsprung -Russell diagram
+to the domain of the planetary nebulae. If the departure from the AGB takes place at an
+advanced stage in the He shell ﬂash cycle, the post-AGB remna nt may experience a last
+He thermal pulse on its early cooling branch, and eventually totally exhausts its residual H
+27
+content, thus giving rise to a H-deﬁcient white dwarf (see be low). When the remaining H
+envelope is reduced to∼ 10−4 M⊙, nuclear energy generation becomes virtually extinct. The
+surface luminosity decreases rapidly, and the star enters t he terminal phase of its life as a
+white dwarf.
+The newly formed white dwarf is left mostly with only gravitational and thermal energy
+sources available. In fact, during most of its ﬁnal evolution, the gravothermal (gravitational
+plus thermal energy) contribution drives the evolution, se e Sect. 4. Since electrons are al-
+ready degenerate in the interior, the stellar radius is not far from the equilibrium radius of the
+zero-temperature model, and the remaining contraction is small, but not entirely negligible.
+Hence, the star evolves almost at constant radius along a dia gonal straight line in the white
+dwarf region of the Hertzsprung-Russell diagram.
+3.3 The formation of white dwarfs with low H content
+An important fraction of white dwarf stars is characterized by a H-deﬁcient composition. In
+agreement with their DA counterparts, the mass distributio n of these stars exhibits a sharp
+peak near 0 .6M⊙, but it lacks almost entirely the low- and high-mass compone nts — see
+Sect. 5. The accepted mechanism for the formation of most H-d eﬁcient white dwarfs is the
+born-again scenario, that is the occurrence of a very late th ermal pulse (VLTP) during the
+early stages of white dwarf evolution when H burning has almo st ceased (Fujimoto 1977;
+Sch¨ onberner 1979; Iben et al. 1983; Herwig et al. 1999; Althaus et al. 2005a). During the
+VLTP, an outward-growing convection zone powered by the He burning shell develops and
+reaches the H-rich envelope of the star, with the consequence that most of the H content of
+the remnant is violently burned in the He ﬂash-driven convection zone (Herwig et al. 1999;
+Miller Bertolami et al. 2006). The resulting H-burning lumi nosity, due mainly to proton
+captures by 12C, may reach about 1011 L⊙ in a matter of a few hours. The star is then forced
+to evolve rapidly back to the AGB and ﬁnally into the domain of the He-, carbon-, and
+oxygen-rich PG 1159 stars (Werner & Herwig 2006) at high Teff. Afterwards, the remnant
+evolves to the white dwarf domain, as a H-deﬁcient star. We postpone the discussion of the
+evolutionary properties of H-deﬁcient white dwarfs to Sect. 5.
+Late thermal pulses (LTP) may also lead to the formation of white dwarfs with small H-
+rich envelopes. In contrast to a VLTP, a LTP occurs before theremnant star reaches the white
+dwarf stage, while the H burning shell is still active. This h as the consequence that H will
+not be completely and violently burnt. Speciﬁcally, in a LTP the low H content results from
+the dilution of the residual H-rich envelope as a result of a d redge-up episode — when the
+remnant returns to the giant phase — and following stable pro ton burning at high effective
+temperatures. After a LTP episode, a large fraction of the residual H envelope is burnt. This is
+an important point since there is mounting evidence that some DA white dwarfs appear to be
+characterized by H-rich envelopes many orders of magnitude smaller than those predicted
+by the standard theory of stellar evolution. The hypothesis that LTPs may be responsible
+for the existence of such white dwarfs has been quantitative ly explored by Althaus et al.
+(2005b), who have shown that a large fraction of the original H-rich material of a post-
+AGB remnant is indeed burned during the post-LTP evolution, with the result that, on the
+white dwarf cooling track the remaining H envelope becomes 1 0−6 M⊙, in agreement with
+asteroseismological inferences for some ZZ Ceti stars — see section 9.1 in this review and
+also Winget & Kepler (2008) and Castanheira & Kepler (2009).
+This evolutionary scenario is illustrated in Fig. 8. Shortly after the occurrence of the LTP
+(A), the stellar remnant returns to the region of giant stars , where H is diluted by surface
+28
+3.43.63.844.24.44.64.855.25.4
+Log(Teff)
+-3
+-2.5
+-2
+-1.5
+-1
+-0.5
+0
+0.5
+1
+1.5
+2
+2.5
+3
+3.5
+4
+4.5
+Log(L/Lsun)
+10
+0
+10
+1
+10
+2
+10
+3
+10
+4
+10
+5
+10
+6
+10
+7
+Time from the onset of LTP [yr]
+-7
+-6.5
+-6
+-5.5
+-5
+-4.5
+-4
+-3.5
+-3
+Log(MH/Msun)
+A
+B
+C
+D
+ZAMS
+AGB
+PG1159
+ZZ Ceti
+LTP
+Fig. 8 Evolutionary scenario for the formation of a DA white dwarf w ith a thin H envelope. It is shown the
+Hertzsprung-Russell diagram for the complete evolution ofthe initially 2.7M⊙ stellar model from the ZAMS
+to the ZZ Ceti domain. The star undergoes a LTP after leaving t he AGB at log Teff = 4.9 (A). As a result,
+the remnant evolves back to the red-giant domain where the H envelope is diluted by surface convection (B).
+Inset: temporal evolution of the H mass in solar units. Filled dots correspond to those stages indicated along
+the evolutionary track. Most of H is processed by nuclear bur ning during the PG 1159 stage. From Miller
+Bertolami et al. (2005).
+convection and mixed inwards with the underlying intershel l region formerly enriched in
+He, carbon and oxygen (B). Afterwards, evolution proceeds i nto the domain of the central
+stars of planetary nebulae at high Teff to become a hybrid PG 1159 star. In the meantime, H
+is reignited and, after the point of maximum effective tempe rature is reached on the early
+white dwarf cooling track (C), the H content is reduced to 8 × 10−7 M⊙, that is, about two
+orders of magnitude smaller than the amount of H predicted bythe standard theory of stellar
+evolution. This value is the amount of H with which the star enters the white dwarf domain.
+The temporal evolution of the H content is illustrated in the inset of Fig. 8. Most of the
+residual H material is burnt over a period of roughly 100,000 yr during the PG 1159 stage.
+On the cooling track, H diffuses outwards, turning the white dwarf into one of the DA type
+with a thin pure H envelope of a few 10−7 M∗.
+29
+3.4 The formation of low-mass white dwarfs
+About 10% of the white dwarf population is characterized by s tellar masses below 0.4M⊙
+(Liebert et al. 2005). A handful of such white dwarfs have masses below 0.2M⊙ (Kawka &
+Vennes 2009). These low-mass white dwarfs constitute a separate sequence of white dwarfs
+with He cores (because the core mass is below that required fo r He ignition), necessarily
+resulting from binary star evolution. Indeed, the Galaxy is not old enough for these objects
+to have formed via single-star evolution. Instead, a compan ion has stripped the envelope
+from the now-visible white dwarf before it completed its red giant evolution. The binary
+nature has been conﬁrmed by the numerous discoveries of periodic radial velocity variations
+of the Hα lines of low-mass DA white dwarfs (Marsh et al. 1995). Low-mass white dwarfs
+are usually found as the companions to millisecond pulsars (van Kerkwijk et al. 2005). This
+offers the possibility of constraining the ages and initial spin periods of the millisecond
+pulsars (Driebe et al. 1998; Hansen & Phinney 1998; Althaus e t al. 2001; Benvenuto & De
+Vito 2005). In fact, millisecond pulsars are thought to be re cycled during the mass transfer
+stage. When mass transfer ends, the pulsar begins to spin down, and from then on, the ages
+of the white dwarf and the pulsar component as inferred from i ts rate of period variation
+(spin down age) should be the same. Finally, the existence of some low-mass white dwarfs
+(∼ 0.3M⊙) with carbon-oxygen cores resulting from single-star evol ution is not discarded
+(Prada Moroni & Straniero 2009).
+4 Detailed models of white dwarf evolution
+Mestel’s model with the improvements we have previously described provides a reasonable
+description of white dwarf evolution. However, if we want to use white dwarfs as reliable
+cosmic clocks to infer the age of stellar populations, we nee d to consider more elaborated
+treatments that include all the potential energy sources an d the way energy is transported
+within the star. The main points to be considered are:
+1. The thermal and hydrostatic evolution have to be treated s imultaneously. In fact, the
+structure of a white dwarf changes with time in response to th e energy radiated. This
+means that pressure is a function of density and temperature.
+2. The thermal energy is not the only source of white dwarf luminosity. There are additional
+energy sources and sinks: residual contraction of the outer layers, nuclear burning, neu-
+trino losses, and the gravitational energy released from ph ysical separation processes
+in the core like carbon-oxygen phase separation upon crysta llization and diffusion of
+minor species in the liquid phase.
+3. The core of a white dwarf is never strictly isothermal, par ticularly in hot white dwarfs.
+4. Changes in chemical composition during white dwarf evolu tion due to convective mix-
+ing, diffusion processes, nuclear reactions and accretion are expected to inﬂuence the
+cooling of white dwarfs.
+A proper treatment of these issues requires a detailed knowledge of the previous history
+of the white dwarf. This is particularly true regarding the c alculation of the early phases of
+white dwarf evolution at high luminosities where contracti on is not negligible. In addition,
+the mass and chemical composition of the core and outer layers — which, as we saw, have a
+marked inﬂuence on the white dwarf evolution — are speciﬁed b y the evolutionary history
+of the progenitor star. Thus, an accurate treatment of white dwarf evolution requires the use
+of complete stellar evolutionary codes to calculate the evolutionary history of the progenitor
+30
+-6-5-4-3-2-10
+Log (1-mr/MWD)
+0
+0.2
+0.4
+0.6
+0.8
+Xi
+12
+C
+16
+O
+4
+He
+1
+H
+0.6 Msun
+surface
+Teff=25,000K
+Fig. 9 1H, 4He, 12C, and 16O distribution within a typical DA white dwarf in terms of theouter mass fraction
+q = 1 − m/M.
+stars all the way from the main sequence, to the mass-loss and planetary nebulae phases. In
+what follows, we will comment on the main aspects to be considered in a detailed treatment
+of white dwarf evolution.
+4.1 Chemical abundance distribution
+The chemical composition of a white dwarf is determined by the nuclear history of the white
+dwarf progenitor. The chemical composition expected in a ty pical DA white dwarf is dis-
+played in Fig. 9 in terms of the outer mass fractionq. The election of this coordinate strongly
+emphasizes the outer layers of the model. Three different re gions can be distinguished: the
+carbon-oxygen core (95% of the mass), which is the result of convective He core burning and
+the subsequent steady He burning shell of prior evolutionar y stages. Because of the larger
+temperatures in the helium burning shell, the oxygen abunda nce decreases in the outer re-
+gions of the carbon-oxygen core. Possible extra-mixing episodes during core He burning —
+like overshooting and semiconvection (Straniero et al. 2003) — and the existing uncertain-
+ties in the 12C(α , γ)16O reaction rate turn the carbon-oxygen composition of the co re into
+one of the main sources of uncertainty weighting upon the det ermination of white dwarf
+cooling times. The core chemical composition depends also on the initial stellar mass of the
+progenitor star. Lower oxygen abundances are generally exp ected in more massive white
+dwarf progenitors. In the case of massive white dwarfs — that is, those with M ∼> 1.05M⊙
+— oxygen-neon cores are expected (Ritossa et al. 1996), whil e very low mass white dwarfs,
+are characterized by He cores. On top of the carbon-oxygen co re is the He- and C- rich
+intershell, which is built up by mixing and burning episodes during the last thermal pulse
+on the AGB. The abundance of carbon in the intershell region, which stems from the short-
+lived convective mixing that has driven the carbon-rich zone upward during the peak of the
+last helium pulse on the AGB, depends on the occurrence of ove rshooting in the He-ﬂash
+convection zone and on the number of previous thermal pulses. Except for the less massive
+white dwarfs, this intershell region is eroded by diffusion by the time evolution has reached
+the domain of the pulsating ZZ Ceti stars by Teff ≈12,000K (Althaus et al. 2010a). Above
+31
+the intershell and below the H envelope, the He-rich buffer which results from prior H burn-
+ing can be found. During the AGB, the mass of this buffer goes f rom almost zero — at the
+pulse peak when the He-ﬂash convection zone is driven close t o the base of the H layer —
+to 0.01M⊙.
+The theory of stellar evolution provides upper limits for th e mass of the various inter-
+shells. For a typical white dwarf of 0 .6M⊙, the maximum H envelope mass that survives
+the hot pre-white dwarf stages is about 10 −4 M⊙ and the total mass of the He buffer and
+the He-intershell amounts to ∼ 0.02M⊙. These values strongly depend on the stellar mass
+of the white dwarf (Renedo et al. 2010), and on the occurrence of LTP episodes, which
+may reduce the mass of the remnant H and He buffer considerabl y, see Sect. 3.3. Astero-
+seismological inferences on individual pulsating white dw arfs provide in some cases con-
+straints to the thickness of the H and He envelopes and the core composition of white dwarfs
+(Winget & Kepler 2008). For instance, asteroseismological studies of DA Vs carried out by
+Castanheira & Kepler (2008, 2009) indicate that the mass of t he H envelope is in the range
+10−4
+∼> MH/M∗ ∼> 10−10, with a mean value of MH/M∗ = 5 × 10−7, thus suggesting that
+an important fraction of DAs characterized by envelopes sub stantially thinner than those
+predicted by standard evolution could exist. We emphasize that the initial chemical stratiﬁ-
+cation of white dwarfs is not known with sufﬁcient detail from the stellar evolution theory or
+from observations. This, in turn, leads to some uncertainties in the evaluation of the cooling
+times.
+4.2 Changes in the chemical abundance distribution
+There are numerous physical processes that alter the chemic al abundance distribution with
+which a white dwarf is formed. The effects of these changes on the evolutionary proper-
+ties of white dwarfs may be important depending on the coolin g stage or luminosity at
+which they occur. The most important of these processes is element diffusion. In particular,
+gravitational settling and chemical diffusion strongly inﬂuence the abundances produced by
+prior evolution. Gravitational settling is responsible fo r the purity of the outer layers that
+characterize most white dwarfs. In fact, because of the extr emely large surface gravity of
+white dwarfs, gravitational settling rapidly leads to the formation of a pure H envelope, the
+thickness of which gradually increases as evolution proceeds. In some cases, the occurrence
+of accretion processes may lead to the existence of cool whit e dwarf with traces of heavy
+elements in their outer layers. At the chemical interfaces, characterized by large chemical
+gradients, chemical diffusion strongly smears the chemical proﬁle, see Fig. 9. Here, the dif-
+fusion time scale is comparable to the white dwarf evolution ary time scale, so equations
+describing diffusion have to be solved simultaneously with the equations describing white
+dwarf evolution (Iben & Macdonald 1985; Althaus et al. 2003, 2005a).
+Under certain circumstances, diffusion processes may trig ger the occurrence of ther-
+monuclear ﬂashes in white dwarfs. In particular, note from F ig. 9 that inside the He buffer,
+chemical diffusion has led to a tail of H extending from the to p layers and a tail of carbon
+from the bottom layers. If the white dwarf is formed with a thi n enough He-rich buffer, a
+diffusion-induced H shell ﬂash may be initiated, thus leadi ng to the formation of a self-
+induced nova, during which the white dwarf increases its lum inosity by many orders of
+magnitude in a very short time (Iben & MacDonald 1986). During this process, the mass of
+the H envelope is believed to be strongly reduced. Another ph ysical process that may alter
+the chemical composition of a white dwarf is convection. Speciﬁcally, for cool white dwarfs
+with H envelopes thin enough ( < 10−6 M⊙), convective mixing will lead to dilution of H
+32
+with the underlying He layer, thus leading to the formation of He-rich outer layers. In addi-
+tion, changes in the outer layer chemical composition are ex pected during the hot stages of
+white dwarf evolution as a result of residual nuclear burning. Finally, an efﬁcient redistribu-
+tion of carbon and oxygen upon crystallization, and sedimentation of minor species such as
+22Ne are expected to occur in the white dwarf core, with important energetics consequences,
+see sections 2.5.5 and 4.3.4.
+4.3 Energy sources of white dwarfs
+As we saw in Sect. 2.5.2, white dwarf evolution can be describ ed essentially as a cooling
+process where the source of star luminosity is approximately provided by the change in the
+internal energy stored in the ions. However, there are addit ional energy sources and sinks
+that may considerably impact the cooling times, and hence they must be taken into account
+in detailed calculations:
+4.3.1 Gravitational energy
+Although white dwarfs evolve at almost constant radius, the role of contraction is by no
+means negligible. The radius at the beginning of the white dw arf phase can be up to twice
+the zero-temperature degenerate radius, and thus the contr ibution of compression to the
+energy output of the star can be important in very hot white dwarfs. In addition, changes in
+the internal density distribution owing to the increase in t he core mass from H burning via
+the CNO cycle lead to an important release of gravitational potential energy from the core of
+pre-white dwarfs (or very young white dwarfs). Gravitational contraction is also relevant in
+the ﬁnal evolutionary phases when Debye cooling has already depleted the thermal energy
+content of the core. Here, the residual contraction of the th in subatmospheric layers may
+provide up to 30% of the star luminosity. But, as mentioned in 2.5.2, for most of white
+dwarf evolution compression barely contributes to the surf ace luminosity. This stems from
+the fact that the compression work released in the core is alm ost completely employed by
+degenerate electrons to increase their Fermi energy.
+4.3.2 Nuclear energy
+Stable H shell burning via the CNO cycle and He shell burning are the main source of lumi-
+nosity during the evolutionary stages preceding white dwarf formation. As a result of CNO
+burning, the H-rich envelope is consumed. Thus, below ∼ 100L⊙ nuclear burning becomes
+a minor contribution to surface luminosity — the density and temperature at the base of the
+H-rich envelope become too low once MH ∼ 10−4 M⊙. Thus, in a typical white dwarf, the
+role of nuclear burning as a main energy source ceases as soon as the hot white dwarf cool-
+ing branch is reached. But it never stops completely, and depending on the stellar mass and
+the exact amount of H left by prior evolution, it may become a non-negligible energy source
+for old DA white dwarfs. Detailed evolutionary calculation s show that, for white dwarfs
+having low-metallicity progenitors, stable H burning via the proton-proton chains may con-
+tribute by more than 50% to the surface luminosity by the timecooling has proceeded down
+to luminosities ranging from L ∼ 10−2 L⊙ to 10−3 L⊙ (Iben & MacDonald 1985). More re-
+cent full calculations show that this H burning contribution at such low luminosities reaches
+30% in the case of white dwarfs resulting from progenitors stars with metallicity Z = 0.001
+(Renedo et al. 2010). However, predictions of the exact valu e of MH and hence of the role
+33
+of residual H burning are tied to the precise mass loss histor y along the previous AGB and
+post-AGB phases, and particularly to the occurrence of latethermal pulses. In this sense it is
+worth mentioning that a small reduction in the H envelope by afactor of about 2 with respect
+to the upper theoretical limit is sufﬁcient to strongly inhi bit H burning, a fact that explains
+the different role of H burning obtained by different author s. Hence, a correct assessment
+of nuclear burning during the white dwarf stage requires the computation of the pre-white
+dwarf evolution, something that has not been possible until recently.
+During the early stages of white dwarf evolution, unstable n uclear burning may also
+be relevant. As we mentioned in 3.3, a late He thermonuclear ﬂ ash may take place after H
+burning is almost completely extinguished, thus eventually leading to a born-again episode
+and to the consumption of most of the H content. Also, a diffus ion-induced H shell ﬂash
+may occur at intermediate luminosities on the white dwarf co oling track, resulting in the
+formation of a self-induced nova (see Sect. 4.2). Again, a pr oper assessment of these nu-
+clear burning episodes and their impact on the subsequent white dwarf evolution requires a
+detailed knowledge of the history of the progenitor star.
+Finally, stable H burning may be dominant in low-mass white d warfs, delaying their
+cooling for signiﬁcant periods of time (Driebe et al. 1998; A lthaus et al. 2001). These stars
+are the result of binary evolution and are characterized by t hick H envelopes. In these low-
+mass white dwarfs, H burning can also become unstable, thus g iving rise to thermonuclear
+ﬂashes at early stages of white dwarf evolution. This bears i mportant consequences for the
+interpretation of low-mass white dwarf companions to millisecond pulsars.
+4.3.3 Neutrino losses
+Energy is lost from white dwarfs not only in the form of photon s, but also through the
+emission of neutrinos. Neutrinos are created in the very dee p interior of white dwarfs and
+provide a main energy sink for hot white dwarfs. Because of th eir extremely small cross-
+sections for interaction with matter — at a central density o f 106 gr/cm3, typical of white
+dwarfs, the mean free path of neutrinos islν ≈ 3,000R⊙ — once created, neutrinos leave the
+white dwarf core without interactions, carrying away their energy. In young white dwarfs,
+neutrinos increase the cooling rate and produce a temperatu re inversion. Neutrinos result
+from pure leptonic processes as a consequence of the electro -weak interaction. Under the
+conditions prevailing in hot white dwarfs the plasma-neutrino process is usually dominant,
+but for massive white dwarfs neutrino bremsstrahlung must also be taken into account (Itoh
+et al. 1996).
+4.3.4 Additional energy sources
+As discussed in Sect. 2.5.5, the energy balance during crystallization of the white dwarf core
+must take into account additional energy sources that have t o be considered in a detailed
+treatment of white dwarf evolution. This comprises the release of latent heat and the release
+of gravitational energy associated with changes in the carb on-oxygen proﬁle induced by
+crystallization (Salaris et al. 1997). As previously explained in that section, partial separation
+of carbon and oxygen, and hence changes of the initial distri bution of these elements, is
+expected to occur after crystallization. The resulting release of gravitational potential energy
+depends on the initial fractions of carbon and oxygen and the ir distribution in the interior.
+The impact of these two energy sources on the white dwarf cool ing times depends on the
+stellar mass of the white dwarf, resulting less relevant for the case of more massive white
+dwarfs, due to their larger luminosities at cyrstallization.
+34
+Finally, the gravitational settling of minor species in thecore also make a contribution to
+the white dwarf luminosity. In particular, the slow diffusion of 22Ne in the liquid white dwarf
+core releases enough gravitational potential energy as to impact the cooling times of massive
+white dwarfs (Deloye & Bildsten 2002; Garc´ ıa–Berro et al. 2 008; Althaus et al. 2010b).
+In fact, 22Ne, which is the product of He burning on 14N during prior evolution, has two
+extra neutrons (relative to A = 2Z). This results in an imbalance between the gravitational
+and electric ﬁelds, and leads to a slow gravitational settli ng of 22Ne towards the center. As
+predicted by Deloye & Bildsten (2002), the possible impact of 22Ne sedimentation on white
+dwarf cooling could be better seen in old, metal-rich clusters, such as NGC 6791, where the
+22Ne abundance expected in the cores of its white dwarfs could be as high as ∼ 4% by mass.
+As a matter of fact, the occurrence of these physical separation processes — carbon-oxygen
+phase separation upon crystallization and 22Ne sedimentation — in the core of cool white
+dwarfs and the associated slow down of the cooling rate has re cently been demonstrated
+by Garc´ ıa–Berro et al. (2010) to be a fundamental aspect to reconcile the longstanding age
+discrepancy in NGC 6791 (Bedin et al. 2008).
+4.4 Energy transport in the outer layers
+Although very thin, the non-degenerate outer layers contro l the rate at which energy ﬂows
+from the interior into space. Because of this, a detailed knowledge of the processes respon-
+sible for energy transport in the outer layers constitutes a crucial aspect for an appropriate
+assessment of the cooling times (D’Antona & Mazzitelli 1990 ). The treatment is difﬁcult
+because it involves energy transfer by radiation and/or convection in a partially degenerate,
+partially ionized and highly non-ideal gas. This difﬁculty becomes particularly relevant in
+cool white dwarfs, where convection has reached the degenerate core. In this case, the cen-
+tral temperature, and thus the cooling of white dwarfs, will be inﬂuenced by the thermal
+and pressure proﬁles of the subatmospheric layers, which ha ve to be provided by non-gray
+model atmospheres. Over the years, detailed model atmosphe res that include non-ideal ef-
+fects in the gas equation of state and chemical equilibrium, and a complete treatment of
+energy absorption processes such as collision-induced opacity, have been developed (Berg-
+eron et al. 1991; Saumon & Jacobson 1999; Rohrmann et al. 2002 ). In particular, the use
+of non-gray model atmospheres to derive outer boundary conditions gives rise to shallower
+outer convection zones, as compared with the standard gray t reatment of the atmosphere.
+Finally, as a result of collision-induced absorption by mol ecular collisions at low effective
+temperatures, the emergent spectrum departs signiﬁcantly from the blackbody emission and
+becomes blue as the effective temperature is lowered (Saumo n et al. 1994; Hansen 1998;
+Rohrmann 2001), a prediction corroborated by deep Hubble Sp ace Telescope exposures in
+globular clusters (Richer et al. 2006).
+4.5 Results from detailed calculations
+The time dependence of the luminosity contributions due to H burning (Lnuc) via proton
+proton and CNO nuclear reactions, He burning ( LHe), neutrino losses ( Lneu), gravothermal
+energy (Lgravo) — the release of thermal plus gravitational potential ener gy — and photon
+emission (surface luminosity, Lsur) for a typical white dwarf is shown in Fig. 10. The evolu-
+tion from the planetary nebulae stage to the domain of the very cool white dwarfs is shown.
+35
+2 4 6 8 10
+Log Age (yr)
+-6
+-4
+-2
+0
+2
+4
+Log(Li / Lsun)
+Lpp
+LHe
+Lneu
+LCNO
+Lgravo
+Lsur
+MWD=0.61Msun
+H-burning
+neutrino emission
+crystallization
+chemical diffusion
+Fig. 10 Time dependence of the different luminosity contributions for a 0.61M⊙ white dwarf: photon lumi-
+nosity, Lsur, luminosity due to nuclear reactions (proton-proton, Lpp, CNO bicycle, LCNO, He burning, LHe),
+neutrino losses, Lneu, and rate of gravothermal (compressional plus thermal) energy release Lgravo. The white
+dwarf progenitor corresponds to an initially 2M⊙ star with metallicity Z = 0.01. Calculations include element
+diffusion, the release of latent heat upon cyrstallization, and outer boundary conditions as given by non-gray
+model atmospheres. The different physical processes of revelance during white dwarf evolution are indicated.
+Luminosities are in solar units and the age is expressed in ye ars from the moment at which
+the remnant reaches logTeff = 4.87 at high luminosity.
+At early times, that is, for young white dwarfs, nuclear burn ing via CNO is the ﬁrst
+contributor to the surface luminosity of the star. Here, the re is a near balance between Lnuc
+and Lsur and between Lgravo and Lneu (like in an AGB star). During this stage, Lgravo results
+from the release of gravitational potential energy owing tothe change in the internal density
+caused by the increase in the core mass from CNO H burning. This a short-lived phase (a few
+thousand years) and, thus, given the long-lived cooling tim es of white dwarfs, it is totally
+negligible in terms of age. Nevertheless, this phase is impo rtant as it conﬁgures the ﬁnal
+thickness of the hydrogen-rich envelope of the white dwarf. After ∼ 104 yr of evolution,
+nuclear reactions abruptly cease and the star begins to desc end to the white dwarf domain
+and the surface luminosity of the star begins to decline stee ply. Thereafter, the evolution is
+dictated by neutrino losses and the release of gravothermal energy — now essentially the
+release of internal energy from the core. Nuclear burning (via CNO) is a minor contribution.
+Note that during this stage, neutrino losses are the dominan t energy sink ( Lgravo ≈ Lν). In
+fact, Lν ≈ 5Lsur and as a result the white dwarf cooling is strongly accelerat ed. To this
+stage belong the pulsating DOV and DBV white dwarfs, so an eventual measurement of the
+rate of period change in some of these stars would allow to con strain the plasma-neutrino
+production rates (Winget et al. 2004). The time scale for CNO burning is larger than the
+evolutionary time scale. Burning occurs in the tail of H distribution and as a result the mass
+of the H envelope is not reduced by burning during this stage.
+36
+-5-4-3-2-1
+Log L/Lsun
+-12
+-8
+-4
+0
+Log (1-mr/M)
+H Convection Zone
+Non-degenerate
+Pure hydrogen envelope
+Pure helium envelope
+Carbon-oxygen core
+Degeneracy boundary
+Crystallization
+Debye solid
+Degenerate
+Onset of convective coupling
+M= 1.06 Msun
+Fig. 11 The logarithm of the outer mass fraction of an evolving massi ve white dwarf as a function of the
+surface luminosity. The location of the different chemical regions and the domain of the physical processes
+relevant for the white dwarf evolution are indicated.
+When tcool ∼ 107 yr, the white dwarf is cool enough that neutrino is no longer relevant.
+Lgravo ≈ Lsur and the white dwarf veriﬁes the Mestel approximations. This is the best under-
+stood stage in the life of a white dwarf. During it the star is c haracterized by a core still in
+the weakly-coupled Coulomb regime and a radiative envelope. There is no convection, nor
+neutrinos or nuclear burning or crystallization, and the ion thermal energy is the main source
+of energy. Below log(L/L⊙) ∼ −3, the picture changes appreciably, as exempliﬁed in Fig.
+11 for the case of a massive white dwarf. At this luminosity, e nvelope convection becomes
+relevant and core crystallization sets in. As already menti oned, crystallization leads to the
+release of both latent heat and gravitational energy from ph ase separation, and convection
+eventually leads to the onset of convective coupling, with t he consequent release of excess
+thermal energy, and the resulting slow down in the cooling rate. In intermediate-mass white
+dwarfs, convective coupling and crystallization take place more or less simultaneously, thus
+markedly changing the slope of the cooling curve. However, in massive white dwarfs, con-
+vective coupling occurs after most of the white dwarf has crystallized, as can be seen in Fig.
+11 (Renedo et al. (2010). In this case, both energy contribut ions inﬂuence the cooling rate
+at different evolutionary stages. In addition, during these stages, appreciable energy release
+from 22Ne sedimentation in the white dwarf core takes place in the ca se of white dwarfs
+stemming from metal-rich progenitors (see 4.3.4), notably impacting the rate of cooling
+(Althaus et al. 2010b).
+The proton-proton burning shell may still make a contributi on to surface luminosity at
+advanced stages, thus reducing the cooling rate of the white dwarf. As already discussed,
+this is relevant in the case of white dwarfs with low-metalli city progenitors, which are left
+with larger H envelopes on the cooling track. For a typical wh ite dwarf resulting from a
+solar-metallicity progenitor, as shown in Fig. 10, residual proton-proton burning is a minor
+contribution. Eventually, H burning becomes virtually extinct at the lowest luminosities, and
+the surface luminosity is given by the release of internal energy from the core. During these
+37
+stages the contraction of the very outer layers may contribu te to the surface luminosity.
+Finally, in the case of massive white dwarfs, the onset of Debye cooling with the consequent
+rapid decrease in the thermal energy content of the white dwarf core, is expected to occur at
+observable luminosities, as shown in Fig. 11.
+5 H-deﬁcient white dwarfs
+5.1 PG 1159 stars and DO white dwarfs
+White dwarf stars with H-deﬁcient and He-rich atmospheres c onstitute about 15% of the
+white dwarf population, and are usually known as non-DA white dwarfs, see Sect. 2.4. Most
+of these white dwarfs are thought to be the progeny of PG 1159 s tars (Dreizler & Werner
+1996; Unglaub & Bues 2000; Althaus et al. 2005a), hot and luminous stars with H-deﬁcient
+and He-, carbon- and oxygen-rich surface layers that consti tute a transition stage between
+post-AGB stars and most of the H-deﬁcient white dwarfs (Werner & Herwig 2006). Typical
+mass abundances observed in PG 1159 stars areXHe ≃ 0.33, XC ≃ 0.5 and XO ≃ 0.17, though
+notable variations are found from star to star (Dreizler & Heber 1998; Werner 2001). A large
+fraction of PG 1159 stars is believed to be the result of a born-again episode — a VLTP, see
+Sect. 3.3 —- which causes a hot white dwarf star to return to the AGB and then to the domain
+of the central stars of a planetary nebula as a hot H-deﬁcient object and with a surface
+composition resembling that of the intershell region chemi stry of AGB stars. Eventually,
+gravitational settling acting during the early stages of wh ite dwarf evolution causes He to
+ﬂoat and heavier elements to sink, giving rise to a He-dominated surface, and turning the PG
+1159 star into a DO white dwarf (Unglaub & Bues 2000). During t his stage, the evolution
+of the star is dictated essentially by neutrino losses and th e release of gravothermal energy
+(O’Brien & Kawaler 2000; Althaus et al. 2005a). Because these white dwarfs are the hottest
+ones, the evolution during the DO stage proceeds very fast, w ith typical evolutionary time
+scales ∼1 Myr.
+Several works have been devoted to the identiﬁcation and spectral analysis of H-deﬁcient
+objects like PG 1159 and DO white dwarfs — see Dreizler & Werne r (1996), Dreizler et al.
+(1997) and references therein for earlier studies of spectr oscopically conﬁrmed DO white
+dwarfs. With the advent of large surveys, like the SDSS, the n umber of spectroscopically-
+identiﬁed H-deﬁcient stars has increased considerably — se e H¨ ugelmeyer et al. (2006) and
+Kepler et al. (2007) for DO and DB white dwarfs, respectively . The determination of ba-
+sic parameters of H-deﬁcient white dwarfs, such as their mas s and age, requires detailed
+evolutionary calculations appropriate for these stars. Such evolutionary calculations need to
+consider the evolutionary history that leads to the formation of H-deﬁcient stars. Moreover,
+if consistent mass determinations of DO white dwarfs and PG 1 159 stars are to be done,
+such calculations need to cover the entire evolutionary sta ge from the domain of luminous
+PG 1159 to the hot white dwarf stage (Dreizler & Werner 1996). Evolutionary tracks and
+mass-radius relations appropriate for both non-DA white dw arfs and PG 1159 stars have
+recently been computed by Althaus et al. (2009a). These sequences have been derived from
+models which cover the complete evolutionary history of progenitor stars with different ini-
+tial masses evolved through the born-again episode and an up -to-date constitutive physics.
+The evolution of these white dwarf sequences in the logTeff −logg plane is shown in Fig. 12
+together with the effective temperature and gravity of all k nown DO white dwarfs, and the
+approximate location of PG 1159 stars in this plane. The departure of the white dwarf cool-
+ing tracks from the zero-temperature predictions is noticeable during the early evolutionary
+38
+4.64.74.84.95.05.15.25.3
+Log( Teff )
+6.4
+6.8
+7.2
+7.6
+8.0
+8.4 Log( g )
+0.515
+0.530
+0.542
+0.565
+0.584
+0.609
+0.664
+0.741
+0.870
+0.04
+1 5
+0.06
+0.08
+0.1
+0.2 0.3 0.4 0.5 0.60.7
+0.80.9 1.3 1.61.92.2 3.5
+(b)
+(d)
+(e)
+(f)
+(g) (h) (u)
+(i)
+(k)
+(j)
+(l)
+(m)
+(n) (o)
+(p)
+(q)
+(r)
+(s) (t)
+(v)
+(w)
+(c)
+0.0
+0.03
+(β)
+(γ)
+(α)
+(δ)
+(ε)
+(ζ)
+(η) (θ)
+(ι) (κ)
+(λ) (μ)
+(ν)
+(a)
+(ξ)
+(1)
+(2) (3)
+(4)
+PG 1159 stars
+Fig. 12 Surface gravity, g (in cm/s 2), as a function of Teff for the H-deﬁcient white dwarf sequences of
+Althaus et al. (2009a). From bottom to top, curves correspon d to sequences with stellar masses from 0.870
+to 0.515M⊙. Also plotted are isochrones ranging from 0.03 to 5 Myr measu red from the highest effective
+temperature point. The observed DO white dwarfs with spectr oscopically-determined effective temperature
+and gravity as analyzed by H¨ ugelmeyer et al. (2006), Dreizler & Werner (1996), and Dreizler et al. (1997)
+are also shown (ﬁlled circles and triangles, and star symbol s, respectively). The thick solid line corresponds
+to the wind limit for PG 1159 stars taken from Unglaub & Bues (2 000), and the two thick dashed lines to
+the wind limits for PG 1159 stars with H/He= 0.1 and 0.01 (uppe r and lower line, respectively). The region
+occupied by PG 1159 stars is also shown. From Althaus et al. (2009a).
+stages at high effective temperatures, particularly in the case of low-mass sequences. Note
+that the bulk of observed DO white dwarfs have ages between 0. 6 and 2.5 Myr, though the
+hottest members of the sample are indeed very young, with ages less than 0.10 Myr.
+The mass distribution for DO white dwarfs and PG 1159 stars re sulting from the evo-
+lutionary tracks shown in Fig. 12, is illustrated in Fig. 13, shaded region and solid line,
+respectively. The size of the bins in both distributions is 0 .1M⊙. Note that massive DOs
+outnumber massive PG 1159 stars. A mean DO mass of 0 .644M⊙ is obtained, consider-
+ably higher (by 0 .071M⊙) than the mean mass of PG 1159 stars, 0 .573M⊙. A possible
+explanation for this difference is simply that evolution through the PG 1159 stage proceeds
+considerably faster for massive stars (Miller Bertolami & Althaus 2006), thus decreasing the
+possibility of detection. However, analyzing the PG 1159+D O group as a whole, it can be
+seen that the difference in the mass distribution reﬂects th e existence of some other impor-
+tant evolutionary channels operating within PG 1159 and DO s tars (Althaus et al. 2009a).
+For instance, it is possible that not all PG 1159 stars evolve to DOs. In particular, those PG
+1159 stars resulting from a LTP — low-mass remnants are more p rone to experience a LTP
+episode — are expected to evolve into DA white dwarfs (near th e winds limits shown in
+Fig. 12 with solid dashed lines), thus avoiding the DO stage, as shown by Unglaub & Bues
+(2000). This is so because, in contrast to a VLTP event, in a LT P, H is not burned, but in-
+stead diluted to low surface abundances (Miller Bertolami & Althaus 2006). Alternatively,
+some DO white dwarfs could result from evolutionary channel s that do not involve only
+PG 1159 stars. For instance, they could be the result of post-merger evolution involving the
+giant, H-deﬁcient RCrB stars, via the evolutionary link RCr B → EHe (extreme He stars)
+39
+0.3 0.4 0.5 0.6 0.7 0.8 0.9 1
+MWD(Msun)
+0
+5
+10
+15
+20
+25
+30number
+DO
+PG1159
+Fig. 13 The solid line and the shaded histogram show, respectively, the mass distribution for the PG 1159
+and DO stars as inferred from the evolutionary calculations for these stars by Althaus et al. (2009a). Clearly,
+massive DO white dwarfs outnumber massive PG 1159 stars. From Althaus et al. (2009a).
+→ He-SdO+ →O(He) → DO — see Rauch et al. (2006) for a connection between O(He)
+stars and RCrB stars. This is reinforced by the recent study by Werner et al. (2008a,b) of the
+star KPD0005+5106, the hottest known DO white dwarf. These a uthors present evidence
+that KPD0005+5106 is not a descendant of PG 1159 stars, but more probably related to the
+O(He) stars and RCrB stars.
+The group of young and hot DO white dwarfs is particularly relevant. Note that they are
+located considerably above the wind limit for PG 1159 stars (see Fig. 12). In fact, above this
+line, mass loss is large enough to prevent gravitational set tling. Hence, the transformation
+of a PG 1159 star into a DO white dwarf should be expected appro ximately below this
+line. Although the estimated mass-loss rates could be overe stimated by more than a factor
+of ten — in which case the transition from PG 1159 to DO would be near a line with
+logg ≈ 7.5 (Unglaub & Bues 2000) — it could be possible that the less mas sive and young
+DOs are not the descendants of PG 1159 stars. Also relevant isthe fact that for ages less than
+about 0.3–0.4 Myr, the DO white dwarf population is markedly less massive than at greater
+ages. Indeed the number of detected old, less massive DOs is s maller than the number of
+young, less massive DOs, despite the evolutionary timescales being a factor about 5 for the
+former. This could indicate that some of the less massive DOs experience a tranformation
+in their spectral type after ≈ 0.3 − 0.4 Myr of evolution. In particular, traces of H could
+turn the white dwarf spectral type from DO to DA as a result of g ravitational settling. An
+40
+-4-3-2-1012
+Log( L/Lsun )
+0.1
+1
+10
+100
+1000Age [ Myr ]
+0.515
+0.530
+0.542
+0.565
+0.584
+0.609
+0.664
+0.741
+0.870
+Fig. 14 Age (in Myr) versus luminosity (in solar units) for the H-deﬁ cient white dwarf sequences from
+Althaus et al (2009a).
+approximate location where this transformation should occur is provided by the thick dashed
+lines shown in Fig. 12, which provides the wind limits for PG 1159 stars with different initial
+H abundances (Unglaub & Bues 2000). It is possible that the or igin of low-mass, hot DOs
+can be connected with the merger of two low-mass, He-core whi te dwarfs (Guerrero et al.
+2004; Lor´ en-Aguilar et al. 2009), which will evolve to become a low-gravity extreme He
+star and then a hot subdwarf (Saio & Jeffery 2000). The presence of H expected in this case,
+could lead to a transformation of the DO white dwarfs into DA ones.
+Finally, in Fig. 14 it is shown the age (in Myr) as a function of the luminosity (in solar
+units) for the H-deﬁcient sequences of Althaus et al. (2009a ). At very high luminosities,
+residual He shell-burning constitutes an appreciable frac tion of the surface luminosity. Ex-
+cept for these very high luminosity stages, evolution durin g the early stages is driven by
+neutrino emission and the release of gravothermal energy. In particular, neutrino losses ex-
+ceed photon luminosity during most of the hot white dwarf stages. As a matter of fact, except
+for the hot and low-gravity DO sample shown in Fig. 12, it is du ring this “neutrino epoch”
+that most DO white dwarfs are observed. Note from Fig. 14 that the imprints of neutrino
+emission on the cooling curve are more noticeable as the mass increases. Less massive se-
+quences are older than more massive sequences for log(L/L⊙) ∼> −1. At this stage, neutrino
+emission arrives at its end, thus causing a change in the slop e in the cooling curve around
+log(L/L⊙) ∼ −1, and later for the less massive sequences. At lower luminosities, Coulomb
+interactions become more important, increasing the speciﬁ c heat, until crystallization and
+the associated release of energy start at the center. At this point, cooling can be well under-
+stood on the basis of the simple cooling theory of Mestel, which predicts less massive white
+dwarfs to cool faster (see Sect.2.5.2).
+41
+5.2 Hot DQ white dwarfs
+The recent discovery of a new lukewarm population of white dwarfs with carbon-rich atmo-
+spheres — known as hot DQs (Dufour et al. 2007; 2008a) — has spa rked the attention of
+researchers since it has raised the possibility of the exist ence of a new evolutionary chan-
+nel of formation of H-deﬁcient white dwarfs. Dufour et al. (2 008a) have reported that nine
+hot white dwarfs identiﬁed in the Fourth Data Release of the S DSS are characterized by
+atmospheres dominated by carbon. The existence of these new white dwarfs — all of them
+found in a narrow effective temperature strip (between ≈ 18,000 K and 24,000 K) — poses
+a challenge to the stellar evolution theory, which cannot adequately explain their origin. As
+proposed by Dufour et al. (2008a) the hot DQ population could be related to the very hot
+(≈ 200,000 K) and massive (0 .83M⊙) member of the PG 1159 family, the enigmatic star
+H1504+65, for which a post born-again origin is not discarde d (Althaus et al. 2009c). In-
+terestingly enough, H1504+65 is the only known star with no t races of either H or He until
+the discovery of the hot DQ white dwarfs. Dufour et al. (2008a ) have outlined an evolu-
+tionary scenario in which undetected traces of He remaining in the carbon- and oxygen-rich
+outer layers of H1504+65 would diffuse upwards leading to a H e-rich white dwarf. In this
+picture, a carbon-rich atmosphere should eventually emerge as the result of convective mix-
+ing at smaller effective temperatures. The ﬁrst quantitative assessment of such evolutionary
+scenario was presented in Althaus et al. (2009b). These auth ors demonstrated that mixing
+between the outer He convection zone with the underlying convective carbon intershell gives
+rise to white dwarf structures with the appropriate effective temperatures and surface compo-
+sitions inferred from the observation of hot DQs. With the help of detailed born-again simu-
+lations for massive remnants, the study of Althaus et al. (2009b) provides the ﬁrst theoretical
+evidence for an evolutionary link between the H- and He-deﬁcient PG 1159 star H1504+65
+with the high-gravity DQ white dwarf SDSS J142625.70+57521 8.4, a connection that can
+be traced back to strong mass-loss episodes after the VLTP. For the intermediate-gravity DQ
+white dwarfs, the scenario predicts the formation of carbon -dominated envelopes for resid-
+ual He contents of the order ofMHe = 10−8 M∗ or smaller. The existence of H-deﬁcient white
+dwarfs with such small He content could be indicative of the e xistence of a new evolution-
+ary scenario for the formation of white dwarfs, as suggested by Dufour et al. (2008a). Al-
+ternatively, in view of the evolutionary connection between H1504+65 and the high-gravity
+SDSS J142625.70+575218.4, it cannot be discarded that the hot DQ white dwarf population
+of intermediate-gravity could be the descendants of some PG 1159 stars with small He con-
+tents. Finally, we recall that some of the possible evolutio nary paths that H-deﬁcient white
+dwarfs may follow are outlined in Fig. 4.
+6 Stellar pulsations and variable white dwarfs
+Until about a couple of decades ago, almost all what we knew ab out the properties of stars
+was derived from observations of their surface layers. Fort unately, the handsome circum-
+stance that many stars pulsate opened a new opportunity to pr obe the interior of stars. The
+study of stellar pulsations, also called stellar seismology or asteroseismology, is a relatively
+young ﬁeld of stellar astrophysics that, by means of the confrontation between the observed
+frequencies (periods) of pulsating stars and the appropria te theoretical models, is able to
+infer details about their origin, internal structure and ev olution. The larger the number of
+frequencies detected in a given star, the more powerful asteroseismology becomes. Astero-
+seismological inferences are not limited to global quantities, such as gravity, effective tem-
+42
+perature or stellar mass. They provide, in addition, inform ation about the internal rotation
+proﬁle, the chemical composition, the run of the local soundspeed, the presence and strength
+of magnetic ﬁelds, the extent of convective regions, and several other interesting properties.
+It is important to note that the main observable of asteroseismology, the oscillation frequen-
+cies, are the quantities that most accurately one can measure for a star.
+Stellar pulsations are the eigenmodes of stars, that is, sta nding waves characterized by
+speciﬁc discrete values of frequency — the eigenfrequencies of the star — and the associated
+time-dependent perturbations in displacement, pressure, density, gravitational ﬁeld,. . . are
+called eigenfunctions. Each star has an unique spectrum of eigenfrequencies, which is ﬁxed
+by the details of its structure. Pulsation modes that mainta in the spherical symmetry are
+called radial modes. They are the simplest oscillations tha t a star is able to sustain, and are
+the type of pulsations that undergo the classical variable s tars such as Cepheids and RR
+Lyra. When pulsations depart from spherical symmetry, the m odes are called non-radial
+modes. Radial pulsations can be considered as a special case of non-radial modes. In recent
+years it has been realized that different kinds of stellar ob jects at different locations in the
+Hertzsprung-Russell diagram and evolutionary stages, undergo non-radial pulsations: solar-
+like, γ Doradus, δ Scuti, roAp, SPB, β Cephei, R CrB, WR/LBV , V361 Hya, V1093 Her,
+and, relevant for this review, variable white dwarf stars. F or speciﬁc details, we refer the
+reader to the excellent reviews of Cox (1980), Unno et al. (1989), Brown & Gilliland (1994),
+and Gaustchy & Saio (1995, 1996).
+In the course of their lives, white dwarfs cross several inst ability strips where they be-
+come non-radial pulsating variable stars. Pulsations mani fest themselves as periodic bright
+variations in the optical and also in the FUV regions of the electromagnetic spectrum. Typ-
+ical light curves show peak-to-peak amplitudes between 0.4 mmag and 0.3 mag. Pulsating
+white dwarfs are found at four regimes of effective temperat ure and gravity (see Fig. 15).
+The hottest known class (80,000 K ≤ Teff ≤ 180,000 K and 5.5 ≤ logg ≤ 7.5) is constituted
+by variable H-deﬁcient, C-, O- and He-rich atmosphere pre-white dwarf stars, named pulsat-
+ing PG 1159 stars. This family includes some objects that are still surrounded by a nebula,
+they are the variable planetary nebula nuclei, designed as P NNVs. Pulsating PG 1159 stars
+that lack a nebula are called DOVs. Both groups (DOVs and PNNVs) are frequently referred
+to as GW Vir variable stars after the prototype of the class, P G 1159−035 (McGraw et al.
+1979). Going to substantially lower effective temperature s and higher gravities (22 ,000 K
+≤ Teff ≤ 29,000 K and 7.6 ≤ logg ≤ 8.2), we ﬁnd the pulsating DB (He-rich atmospheres)
+white dwarfs, also called DBVs or V777 Her variable stars, th e existence of which was
+theoretically predicted by Winget et al. (1982b) before their discovery. The next class of de-
+generate pulsators are the cool (10,500 K ≤ Teff ≤ 12,500 K and 7.8 ≤ logg ≤ 8.8) pulsating
+DA (H-rich atmospheres) white dwarfs, also called DA Vs or ZZ Ceti variable stars. It was
+the ﬁrst class of pulsating white dwarfs to be observed (Land olt 1968). Between the DBV
+and the DA V instability strips, we ﬁnd the recently discovered class of hot DQ variable white
+dwarfs, or DQVs (19 ,000 K ≤ Teff ≤ 22,000 K). They are white dwarfs with C- and He-
+rich atmospheres. The analysis of the prototype of this class (SDSS J142625.71+575218.3)
+carried out by Green et al. (2009) appeared to conﬁrm the puls ating nature of this star, thus
+unequivocally ruling out the interacting binary hypothesis that was initially put forward by
+Montgomery et al. (2008a) in the discovery paper. Table 2, ad apted from O’Brien (2003),
+presents a summary of the main characteristics of each class of pulsating white dwarf stars.
+The ﬁrst column corresponds to the name of each class and the year of discovery of the ﬁrst
+member of the group, the second column shows the number of members, columns 3 to 6 list
+the visual magnitudes, effective temperatures, periods and amplitudes, respectively, and the
+last column shows the driving mechanism supposed to act in each case.
+43
+44.555.5
+log Teff
+5.5
+6
+6.5
+7
+7.5
+8
+8.5
+9
+log g
+ZZ CetiV777 Her
+DQV
+DOV
+PNNV 
+Pulsating 
+wind limit
+theoretical blue edge
+(ML2/α= 1.25)
+theoretical red edge
+theoretical blue edge
+(ML2/α= 1)(ML2/α= 1)
+M
+*= 0.51 M
+o
+M
+*= 0.87 M
+o
+white dwarfs
+theoretical blue edge
+theoretical blue edge
+GW Vir
+Fig. 15 The location of the several classes of pulsating white dwarf stars in the log Teff − logg plane. Two
+post-VLTP (H-deﬁcient) evolutionary tracks are plotted for reference. Also shown is the theoretical blue edge
+of the instability strip for the GW Vir stars (C´ orsico et al.2006), the V777 Her stars (C´ orsico et al. 2009a),
+the DQV stars (C´ orsico et al. 2009d), and the ZZ Ceti stars (Fontaine & Brassard 2008).
+Table 2 Properties of pulsating white dwarfs.
+Class Known Visual Teff Periods Amplitudes Driving
+pulsators magnitudes [kK] [min] [mag] mechanism
+PNNV 10 11 .8 − 16.6 110 − 170 7 − 100 0 .01 − 0.15 κ − γ (C/O)
+(1984)
+DOV 6 14 .8 − 16.7 80 − 160 5 − 43 0 .02 − 0.1 κ − γ (C/O)
+(1979)
+V777 Her 20 13 .6 − 16.7 22 .4 − 28.4 2 − 18 0 .05 − 0.3 κ − γ (HeII)
+(1982) (convection?)
+DQV 3 17 .7 − 19.6† 19 − 22 4 − 18 0 .005 − 0.015 κ − γ (C)
+(2008) (convection?)
+ZZ Ceti 145 12 .2 − 16.6 10 .4 − 12.4 1 .6 − 23.3 0 .01 − 0.3 κ − γ (HI)
+(1968) convection
+†g magnitude of the SDSS ugriz system.
+44
+Among the several classes of pulsating stars, the study of pu lsating white dwarfs is
+probably the area that has experienced the most rapid progre ss. According to the classical
+review of Winget (1988), this has been the result of several fortunate facts: (i) the relatively
+simple physical structure of white dwarfs, combined with th e apparently slow rotation rate
+and weak magnetic ﬁeld, which ensures simplicity also in their pulsation properties; (ii) the
+pulsation amplitudes are small enough as to be treated in theframework of the linear theory,
+but large enough still to be readily detectable; (iii) the mu ltiperiodic nature of white dwarf
+pulsations, that provides many independent clues to their u nderlying stellar structures; and
+(iv) the periods are typically short enough, thus enabling o bservers to detect many cycles
+in a single run. For recent excellent reviews about pulsatin g white dwarf stars we refer the
+reader to the papers of Winget & Kepler (2008) and Fontaine & Brassard (2008).
+6.1 Brief history of discovery
+A full account of the history of discovery of pulsating white dwarf stars can be found in
+the work of Vuille (1998) and in the review articles of Winget (1988) and Winget & Kepler
+(2008). The notion of pulsations in white dwarfs goes back to the mid-twentieth century,
+when Sauvenier-Gofﬁn (1949) and Ledoux & Sauvenier-Gofﬁn (1950) explored for the ﬁrst
+time the possibility that white dwarfs could undergo stellar pulsations. They found that rapid
+variability, associated to radial modes driven by H burning , should be exhibited by white
+dwarfs. The absence of high frequency variability typical o f radial modes in these stars led
+to the conclusion that the energy source of white dwarfs coul d not be nuclear reactions.
+This, in turn, clariﬁed the role of release of thermal energy as the main agent of white dwarf
+evolution, paving the way to the development of the Mestel’s (1952) model of white dwarf
+cooling (Sect. 2.5.2).
+The ﬁrst variable white dwarf, HL Tau 76, was serendipitously discovered by A. Landolt
+(Landolt 1968), who did not even suspect that the ﬁnding would result later in a new and fas-
+cinating ﬁeld of stellar research. In fact, in the abstract of his paper, Landolt just announced:
+“Photoelectric data which point to a 12 m.5 variation in the brightness of a white-dwarf-
+like star are discussed”. The luminosity variations detect ed in HL Tau 76, with a period
+of about 740 s, were too long to be attributed to radial modes, according to the theoretical
+studies available at that time (Faulkner & Gribbin 1968; Ost riker & Tassoul 1968). Two
+other variable white dwarfs were discovered in the meantime by Lasker & Hesser (1969,
+1971): G 44−32 (with periods in the range 600−800 s) and R 548 (with periods in the range
+200−300 s). The newly discovered variabilities in these compact objects were attributed to
+non-radial gravity modes, rather than purely radial modes (Warner & Robinson 1972; Chan-
+mugam 1972), in agreement with the at that available theoret ical estimations of Baglin &
+Schatzman (1969) and Harper & Rose (1970).
+Further conﬁrmation that the variability of white dwarfs wa s due to non-radial grav-
+ity modes came from the detection of rotational splitting in R 548 (Robinson et al. 1976),
+where rotation breaks the mode degeneracy and each frequenc y is split into multiplets of
+frequencies. McGraw (1979) carried out a very important observational work that provided
+a strong conﬁrmation of the gravity-mode nature of variable white dwarfs. The multicolour
+Str¨ omgen high-speed photometric data of that work suggested that the bright variations were
+entirely due to surface temperature variations, and not to changes in radius, in line with the
+fact that gravity modes are characterized by a predominantl y tangential displacement (see
+Sect. 7). The very important work by Robinson et al. (1982) provided unequivocal theoreti-
+cal support to the idea that the luminosity variations are entirely due to surface temperature
+45
+variations, and that the variations of radius are as small asδR∗/R∗ ∼ 10−4. Note that the lin-
+eal theory of non-radial pulsations does not provide any clue about the value of the fractional
+change in radius, since the governing equations are homogeneous and the normalization of
+the eigenfunctions is arbitrary (Cox 1980).
+A breakthrough in the ﬁeld of white dwarf pulsations was the f oundation of the Whole
+Earth Telescope consortium (Nather et al. 1990), most commo nly known as WET, the ﬁrst
+of several global networks for asteroseismology that enabl ed to obtain uninterrupted light
+curves spanning one to two weeks, thus avoiding the regular g aps in the data caused by
+the inevitable regular appearance at each site of the Sun. De tails about WET and its ﬁrst
+applications are described in Nather et al. (1990) and Winget et al. (1991, 1994).
+The study of pulsating white dwarf stars through asteroseis mology has in the recent
+years enabled astronomers to access a wealth of details about the internal structure of white
+dwarfs, otherwise inaccessible by means of traditional techniques. Before going on the pul-
+sational properties of white dwarfs and the asteroseismolo gical tools and applications, we
+brieﬂy review below the theory of stellar pulsations, with e mphasis in non-radial gravity-
+mode pulsations.
+7 Overview of non-radial pulsations
+In what follows, we brieﬂy describe the basic properties of non-radial modes. This overview
+will be necessarily succinct, so we refer the reader to the ex cellent monographs by Unno
+et al. (1989) and Cox (1980) for further details about the the ory of linear non-radial stellar
+pulsations. Non-radial modes are the most general kind of st ellar oscillations. There exist
+two subclasses of non-radial pulsations, namely, spheroidal modes, for which (∇ × ξ)r = 0
+and σ ⁄= 0, and toroidal modes, for which (∇ · ξ) = 0 and σ = 0, where ξ is the displacement
+vector and σ the pulsation frequency. Of interest in this review are the s pheroidal modes,
+which are further classiﬁed into g-, f - and p-modes according to the main restoring force
+acting on the oscillations, being gravity (buoyancy) for th e g- and f -modes and pressure
+gradients for the p-modes.
+For a spherically symmetric star, a linear non-radial pulsation mode can be represented
+as a three-dimensional standing wave of the form:
+ψ ′
+kℓm(r, θ, φ,t) = ψ ′
+kℓm(r) Y m
+ℓ (θ, φ) eiσkℓmt, (32)
+where the prime indicates a small Eulerian perturbation of a given quantity ψ (like the
+pressure, gravitational potential,. . . ) andY m
+ℓ (θ, φ) are the corresponding spherical harmon-
+ics. Geometrically, ℓ = 0,1,2, . . . is the number of nodal lines in the stellar surface and
+m = 0, ±1, . . . ,±ℓ is the number of such nodal lines in longitude. Note that radial pulsations
+are recovered when ℓ = 0. In absence of any physical agent able to remove spherical s ym-
+metry (like magnetic ﬁelds or rotation), the eigenfrequencies σkℓm are dependent upon ℓ but
+are (2ℓ + 1) times degenerate in m. Finally, ψ ′
+kℓm(r) is the radial part of the eigenfunctions,
+which for realistic models must be necessarily computed num erically together with σkℓm.
+The eigenfunctions and eigenvalues are obtained as solutio n of a eigenvalue problem of
+fourth order in space, if we are considering the adiabatic approximation (dS = 0), which has
+analytical solution only for a unrealistic star model consisting of a homogeneous compress-
+ible sphere (Pekeris 1938). The index k = 0,1, . . ., known as the radial order of the mode,
+represents (in the frame of simple stellar models like thoseof white dwarf stars) the number
+of nodes in the radial component of the eigenfunction. They constitute concentric spherical
+46
+surfaces where radial displacement is null. For g-modes, the larger the value of k, the lower
+the oscillation frequency, while for p-modes the opposite holds.
+White dwarf and pre-white dwarf stars pulsate in non-radial g-modes with periods be-
+tween about 100 s and 1,200 s, although PNNVs are able to pulsate with much longer peri-
+ods, up to about 6,000 s. Curiously, the g-mode periods of white dwarfs are of the order of
+magnitude of p-mode periods for non-degenerate pulsating stars. It is interesting to note that
+radial modes and p-modes with periods between 0.1 and 10 s have been found to be p ul-
+sationally unstable in a number of theoretical stability an alysis (Saio et al. 1983; Kawaler
+1993) but, however, these short period modes have not been ev er observed in any white
+dwarf star, although the interest in the topic has been recently renewed (Silvotti et al. 2007).
+Finally, we mention that until now, only modes with ℓ = 1 and ℓ = 2 have been identiﬁed
+with high conﬁdence in pulsating white dwarfs. Modes with hi gher values of ℓ are thought
+to be excited, but due to geometric cancellation effects (Dziembowski 1977), they should be
+very difﬁcult to detect (however, see Sect. 7.5).
+7.1 Classes of spheroidal modes and critical frequencies
+Generally speaking, g-modes are characterized by low oscillation frequencies (long periods)
+and by displacements of the stellar ﬂuid essentially in the horizontal direction. The structure
+of the g-mode period spectrum is governed by the Brunt-V¨ ais¨ al¨ a frequency, given by:
+N2 = g
+( 1
+Γ1
+d ln p
+dr − d ln ρ
+dr
+)
+(33)
+where g is the local gravitational acceleration. If N2 > 0 then N is the (real) frequency
+of oscillation of a parcel of stellar ﬂuid around its equilib rium level under gravity (Unno
+et al. 1989). On the other hand, p-modes have high frequencies (short periods) and are
+characterized by essentially radial displacements of the s tellar ﬂuid. The critical frequency
+for p-modes is the Lamb frequency, deﬁned as:
+L2
+ℓ = ℓ (ℓ + 1) c2
+s
+r2 (34)
+cs being the local adiabatic sound speed, deﬁned as c2
+s = Γ1 p/ρ, with Γ1 = (d ln p/d ln ρ)ad.
+A sound wave travels a distance ≈ 2πr/ℓ horizontally in a time interval of ≈ 2π/Lℓ (Unno
+et al. 1989).
+Finally, there is a single f -mode for a given ℓ (≥ 2) value. Usually, this mode does
+not have any node in the radial direction ( k = 0) and possesses an intermediate character
+between g- and p-modes. In fact, its eigenfrequency lies between that of the low order g-
+and p-modes, and generally slowly increases when ℓ increases.
+7.2 The asymptotic behavior for high radial order
+When the radial order is high enough ( k ≫ 1) and for a small value of ℓ, the frequency of
+p-modes is approximately given by (Tassoul 1980):
+σkℓ ≈ π
+2
+(
+2k + ℓ + n + 1
+2
+) [ ∫ R∗
+0
+1
+cs(r)dr
+] −1
+, (35)
+47
+Here n is the politropic index characterizing the structure of the surface layers of a stellar
+model. On the other hand, for completely radiative or completely convective and chemically
+homogeneus stellar models, the frequency of g-modes for k ≫ 1 is given by:
+1
+σkℓ
+≈ π
+2
+(
+2k + ℓ + n + 1
+2
+) 1√
+ℓ(ℓ + 1)
+[ ∫ R∗
+0
+N(r)
+r dr
+] −1
+, (36)
+From Eq. (35) we have, for p-modes with ﬁxed ℓ:
+∆ σa = σk+1ℓ − σkℓ = π
+[ ∫ R∗
+0
+1
+cs(r)dr
+] −1
+= constant, (37)
+that is, the asymptotic frequency spacing of p-modes is constant (and not dependent from ℓ)
+in the limit of high radial order. The value of the constant depends only on the proﬁle of the
+adiabatic sound speed, cs(r), in the interior of the star. Similarly, from Eq. (36) we have, for
+g-modes with ﬁxed ℓ,
+∆ Π a
+ℓ = Π k+1ℓ − Π kℓ = 2π2
+√
+ℓ(ℓ + 1)
+[ ∫ R∗
+0
+N(r)
+r dr
+] −1
+= constant, (38)
+where Π kℓ = 2π/σkℓ is the pulsation period. Thus, the asymptotic period spacing of g-modes
+is a constant value (which dependens on ℓ) in the limit of high radial order. This constant
+value is ﬁxed by the Brunt-V¨ ais¨ al¨ a frequency.
+7.3 Local analysis and propagation diagrams
+Important insights on the properties of non-radial pulsation modes can be derived by means
+of a “local analysis”. If we consider modes with very short wavelengths (large wave number
+kr), that is, high radial order modes (k ≫ 1), and in the frame of the Cowling approximation
+— Φ ′ = 0, Φ being the gravitational potential (Cowling 1941) — the coef ﬁcients in the pul-
+sation equations vary slowly in comparison with the eigenfu nctions, and then the solutions
+are proportional to eikrr. The result of this local analysis is the following dispersion relation:
+k2
+r = 1
+σ 2c2s
+(
+σ 2 − L2
+ℓ
+) (
+σ 2 − N2)
+(39)
+If σ 2 > N2,L2
+ℓ or σ 2 < N2,L2
+ℓ then k2
+r > 0 and kr ∈ Re, being the solutions able to
+propagate radially. These inequalities deﬁne two propagation regions or “resonant cavities”
+in the interior of the star: the p-region (corresponding to p ropagating p-modes) and the
+g-region (associated with propagating g-modes). If, on the contrary, N2 > σ 2 > L2
+ℓ or L2
+ℓ >
+σ 2 > N2 then k2
+r < 0 and kr ∈ Im and thus the solutions are evanescent, that is, the amplitude
+of oscillation increases or decreases exponentially with r.
+To illustrate the behavior described by the dispersion rela tion of Eq. (39) in the spe-
+ciﬁc case of white dwarfs, we display in Fig. 16 the propagati on diagrams corresponding
+to four selected pre-white dwarf and white dwarf stellar mod els. Panel (a) corresponds to a
+PG 1159 model at stages before the evolutionary knee (see Fig. 15), which is representative
+of a PNNV star; panel (b) shows the situation of a PG 1159 model located after the evolu-
+tionary knee, representative of a DOV star; panel (c) is repr esentative of a DBV star; and
+ﬁnally, panel (d) corresponds to a DA V star. In each diagram,the proﬁle of the Brunt-V¨ ais¨ al¨ a
+frequency and the Lamb frequency (for ℓ = 1) are plotted.
+48
+0 2 4 6 8 10
+-log(1-Mr/M*)
+-4
+-3
+-2
+-1
+0
+1
+0 2 4 6 8 10
+-log(1-Mr/M*)
+-4
+-3
+-2
+-1
+0
+1
+log N
+2
+, log L1
+2
+0 2 4 6 8 10-4
+-3
+-2
+-1
+0
+1
+log N
+2
+, log L1
+2
+0 2 4 6 8 10-4
+-3
+-2
+-1
+0
+1
+P-region
+G-region
+P-region
+G-regionN
+2
+L1
+2
+P-region
+G-region
+P-region
+G-region
+N
+2
+L1
+2
+N
+2
+L1
+2
+DAV
+12000 K
+0.56 Mo
+DBV
+24600 K
+0.565 Mo
+DOV
+139000 K
+0.59 Mo
+PNNV
+147200 K
+0.59 Mo
+(a) (b)
+(c) (d)
+N
+2
+L1
+2
+Fig. 16 Propagation diagrams (logN2,L2
+ℓ as a function of −log(1 − Mr/M∗)) corresponding to selected pre-
+white dwarf and white dwarf stellar models. Panel (a) depict s the situation of a PNNV star, panel (b) corre-
+sponds to a DOV star, panel (c) is representative of a DBV star, and panel (d) depicts the case of a DA V star.
+Gray zones correspond to wave propagation regions.
+Two outstanding features shown in this ﬁgure are worth to be commented. To begin with,
+while the Lamb frequency exhibit a similar qualitative behavior for all the four models, the
+Brunt-V¨ ais¨ al¨ a frequency shows very important changes,basically produced by changes in
+the strength of electronic degeneracy at the different evolutionary stages considered. This is
+particularly notorious when we compare the case of the DOV mo del with the DBV model,
+and, in turn, with the DA V model. The changes in the Brunt-V¨ ais¨ al¨ a frequency lead to im-
+portant changes in the extension and location of the propagation cavities. For instance, in the
+case of the PNNV and DOV models, g-modes are allowed to propagate mainly at the deep
+regions of the core due to the large values of N2 there. This is because electron degeneracy
+is not important at these stages. The p-modes, on the other hand, are able to propagate in
+more external regions. This behavior is shared by all the “no rmal” (non-degenerate) pul-
+sating stars. Note that in the case of the PNNV model, there is a range of frequencies for
+which the modes are allowed to propagate in the p-region as we ll as in the g-region. They
+correspond to modes with a mixed ( p and g) character. In the case of the DA V model, the
+most degenerate conﬁguration, the Brunt-V¨ ais¨ al¨ a frequency is very small at the core region,
+forcing g-modes to propagate mainly in the stellar envelope. On the co ntrary, p-modes are
+restricted to propagate in the inner zones of the star. In sum mary, while g-modes probe
+mainly the central regions in the case of PNNV and DOV stars, t hey are strongly sensitive
+to the outer layers in the case of DBV and DA V stars. Note, howe ver, that some g-modes
+with low-order k are still able to probe the deep interior of DA Vs and DBVs, thus allowing
+to make some inferences on the structure of the carbon-oxygen core.
+The second important feature exhibited by the propagation d iagrams of Fig. 16 is the
+presence of several bumps and peaks in the run of the Brunt-V¨ ais¨ al¨ a frequency. They are
+49
+due to the presence of steep density gradients in the interio r of white dwarfs models, in-
+duced by several chemical transition regions (see 4.1). If w hite dwarfs were chemically
+homogeneous, then the Brunt-V¨ ais¨ al¨ a frequency should exhibit a very smooth behavior.
+The chemical structure of realistic white dwarf and pre-whi te dwarf models (with different
+evolutionary histories) described in Fig. 16, is shown in Fig. 17. This ﬁgure shows the frac-
+tional abundances of the main chemical species. For white dwarfs and pre-white dwarfs, the
+Brunt-V¨ ais¨ al¨ a frequency must be numerically assessed by means of the relation (Tassoul et
+al. 1990; Brassard et al. 1991):
+N2 = g2 ρ
+P
+χT
+χρ
+(∇ ad − ∇ + B) , (40)
+where χT = (∂ lnP/∂ lnT )ρ and χρ = (∂ lnP/∂ ln ρ)T , ∇ and ∇ ad are the actual and adia-
+batic temperature gradients, respectively, and B, the Ledoux term, is given by
+B = − 1
+χT
+n−1
+∑
+i=1
+χXi
+d lnXi
+d lnP . (41)
+Here Xi is the abundance by mass of species i, n is the total number of considered species
+and
+χXi =
+( ∂ lnP
+∂ lnXi
+)
+ρ,T,{X j⁄=i}
+. (42)
+This formulation (the “modiﬁed Ledoux” treatment) has the a dvantage of avoiding the
+numerical problems that appear when Eq. (33) is employed to c ompute N in the strongly
+degenerate matter typical of white dwarf interiors (Brassa rd et al. 1991), and at the same
+time it explicitly accounts for the contribution to N from any change in composition in the
+interior of model (the zones of chemical transition) by mean s of the Ledoux term B of Eq.
+(41). The correct treatment of the Brunt-V¨ ais¨ al¨ a frequency in the interfaces of chemical
+composition in stratiﬁed white dwarfs is very important, particularly in connection with the
+resonance effect of modes known as “mode trapping” (see Sect. 8.2 below).
+7.4 Effects of slow rotation and weak magnetic ﬁelds
+We have seen that, in absence of rotation and/or magnetic ﬁel ds, each eigenfrequency is
+(2ℓ + 1)-fold degenerated. This degeneracy takes place due to the absence of a preferential
+axis of symmetry for oscillations. In the presence of slow rotation, as it appears to be the case
+of most white dwarfs, we have Ω ≪ σkℓm, where Ω is the angular frequency of rotation. In
+this case, the theory of perturbations can be applied to a ﬁrst order, and then each frequency
+is split in (2 ℓ + 1) equally-spaced components, thus completely lifting the degeneracy in
+frequency. Each component of the multiplet is given by:
+σkℓm(Ω ) = σkℓ(Ω = 0) +δ σkℓm. (43)
+If rotation is rigid (Ω = constant), the correction to the eigenfrequencies is expressed as:
+δ σkℓm = −m Ω (1 −Ckℓ) , (44)
+50
+0 1 2 3 4 5 6 7 8 9 10
+0
+0.2
+0.4
+0.6
+0.8
+1
+X(He), X(C), X(O)
+0 1 2 3 4 5 6 7 8 9 10
+0
+0.2
+0.4
+0.6
+0.8
+1
+X(He), X(C), X(O)
+0 1 2 3 4 5 6 7 8 9 10
+-log (1-Mr/M*)
+0
+0.2
+0.4
+0.6
+0.8
+1
+X(H), X(He), X(C), X(O)
+He O
+PG1159 model
+C
+DA model
+Teff= 139000 K
+He
+C
+O
+He
+O
+C
+H
+M*= 0.56 Msun
+DB model
+M*= 0.565 Msun
+M*= 0.59 Msun
+Teff= 24600 K
+Teff= 12000 K
+Fig. 17 The internal chemical structure of the white dwarf and pre-white dwarf models described in Fig. 16.
+with m = 0, ±1, . . . ,±ℓ and Ckℓ being coefﬁcients that depend on the details of the stellar
+structure and the eigenfunctions obtained in the non-rotat 
