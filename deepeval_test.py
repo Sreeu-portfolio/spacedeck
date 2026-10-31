@@ -78,7 +78,7 @@ def test_relevancy():
                 "Passed": None,
             })
 
-
+    ## Writing to Excel ##
     df = pd.read_excel(excel_name, sheet_name='Sheet1')
     for column in ["Deepeval_Score", "Deepeval_Reason"]:
             if column in df.columns:

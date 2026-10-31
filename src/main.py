@@ -1,4 +1,4 @@
-from src.BM25 import key_word_search, create_index
+from src.BM25 import key_word_search, create_vectorsearch_index
 from src.embedding import DataStorage
 import os
 from src.LLM import assistant
@@ -91,32 +91,18 @@ def RAG_query_analysis(user_query):
     """
     print(f"Prompt: {prompt}")
     assistant_reply = assistant(prompt)
-    try:
-        with open(r"D:\RAG\results\result.txt", 'a', encoding="utf-8") as file:
-                reply = f'{user_query}\n{assistant_reply}\n\n'
-                file.write(reply)
-    except Exception as e:
-            print(f'exception occured for {prompt}: {e}')
 
     return data_chunks, assistant_reply
 
+###############################################################
+# Creating index for Simantic/vector and Key word search
+###############################################################
+def create_index():
+    textfile_data, count = oRAG.read_file(r'D:/spacedeck/docs')
+    pdf_data = oRAG.read_pdf_files(r'D:/spacedeck/PDF_docs', count)
+    data_combined = [*textfile_data, *pdf_data]
 
-
-# if __name__ == '__main__':
-#     ## Calling the LLM
-#     for que in ["Give me solar system diagram"]:
-#         query_check(que)
-#         RAG_query_analysis(que)
-
-
-    ################################################################
-    ## Creating index for Simantic/vector and Key word search
-
-    ################################################################
-    # textfile_data, count = oRAG.read_file(r'D:/RAG/docs')
-    # pdf_data = oRAG.read_pdf_files(r'D:/RAG/PDF_docs', count)
-    # data_combined = [*textfile_data, *pdf_data]
-
-    # oDataStorage = DataStorage()
-    # oDataStorage.embedding_docs(data_combined)
-    # create_index(data_combined)
+    oDataStorage = DataStorage()
+    oDataStorage.embedding_docs(data_combined)
+    create_vectorsearch_index(data_combined)
+    return

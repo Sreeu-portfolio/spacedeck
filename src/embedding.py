@@ -36,24 +36,3 @@ class DataStorage():
 
         
         return answer
-            
-#         results = f"""Info 1: 
-# {answer["documents"][0][0]}
-# Info 2:
-# {answer["documents"][0][1]}
-# Info 3:
-# {answer["documents"][0][2]}
-# """
-#         prompt = f"""Context": {results}
-# "Question": {user_query}
-# """
-#         print(f"Prompt: {prompt}")
-#         assistant_reply = assistant(prompt)
-#         # with open(r"D:\RAG\results\result.txt", 'a') as file:
-#         #         reply = f'{user_query}\n{assistant_reply}\n\n'
-#         #         file.write(reply)
-#         print(f"Intelligent asistant answer: {assistant_reply}")
-
-# oDataStorage = DataStorage()
-# for l in ['How many planets are there in solar system']:
-#     oDataStorage.embaedding_query(l)

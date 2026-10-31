@@ -7,7 +7,7 @@ import bm25s
 #         "a bird is a beautiful animal that can fly",
 #         "a fish is a creature that lives in water and swims"]
 ###################################################################
-def create_index(corpus):
+def create_vectorsearch_index(corpus):
         retriever = bm25s.BM25(corpus=corpus)
         ## Extract only the text field for tokenization
         text_only = [doc["text"] for doc in corpus]
